@@ -1,0 +1,3936 @@
+ 
+ 
+ 
+
+ 
+ 
+ 
+OPIS PROCESÓW ZACHODZĄCYCH W POSZCZEGÓLNYCH DZIAŁACH W FIRMIE BYŚ 
+ 
+ 
+ 
+ 
+Warszawa, marzec 2023 r.  
+ 
+ 
+SPIS TREŚCI 
+ 
+I. BIURO OBSŁUGI KLIENTA 
+
+1. WIDOK PODSTAWOWY DLA BIURA OBSŁUGI KLIENTA 
+
+2. MODUŁ: KREATOR DODAWANIA KONTRAHENTA 
+
+3. MODUŁ: OSOBY KONTAKTOWE  
+
+4. MODUŁ: ADRESY 
+
+5. MODUŁ: UMOWA 
+
+6. UWAGI KOŃCOWE DO MODUŁÓW PODSTAWOWYCH 
+
+7. PRZYJMOWANIE ZLECEŃ 
+
+8. PASKI NARZĘDZI W BOK 
+
+9. GENERATOR FAKTUR  
+
+10. WYSYŁKA FAKTUR 
+
+11. RAPORTOWANIE Z SYSTEMU 
+
+12. TYPY UMÓW 
+
+13. DZIAŁANIA NA REJESTRZE ZLECEŃ I USŁUG 
+
+14. PRZYGOTOWANIE I WYSYŁKA ANEKSÓW PODWYŻSZAJĄCYCH STAWKI Z UMÓW 
+
+15. MODUŁ WINDYKACYJNY 
+
+
+16. ZAMÓWIENIA ZE STRONY INTERNETOWEJ 
+
+17. OFERTOWANIE – SKOPIOWAĆ Z ANALIZY WDROŻENIOWEJ 
+
+18. RAPORTOWANIE Z SYSTEMU 
+
+19. KASA 
+
+20. UWAGI KOŃCOWE DO MODUŁU BOK 
+
+
+ 
+ 
+II. MODUŁ BDO 
+
+
+ 
+1. WSTĘP 
+
+2. PODPISANIE KPO POD ZLECENIA 
+
+3. KLIENT ZINTEGROWANY- API AKTYWNE BDO 
+
+4. LISTA KPO/ KPOK NA API 
+
+5. ZATWIERDZANIE KPO/KPOK KONTENERY 
+
+6. ZATWIERDZANIE KPO/KPOK ŚMIECIARKI 
+
+7. RAPORTOWANIE 
+
+
+ 
+ 
+  
+III. DYSPOZYTORNIA- KONTENERY / HDS 
+
+1. DYSPOZYTORNIA 
+
+2. DYSPOZYTOR 
+
+3. KIEROWCA 
+
+4. POJAZDY 
+
+5. ZLECENIA 
+
+6. REALIZACJA ZLECEŃ NA TABLECIE 
+
+7. ZATWIERDZANIE ZLECEŃ 
+
+
+ 
+ 
+IV. DYSPOZYTORNIA- ŚMIECIARKI 
+
+1. DYSPOZYTOR 
+
+2. ZLECENIA 
+
+3. TRASÓWKI 
+
+4. TABLET 
+
+5. KIEROWCA 
+
+6. ZATWIERDZANIE TRASY 
+
+
+ 
+ 
+ 
+ 
+V. DZIAŁ TECHNICZNY  
+
+1. PROGRAM DO OBIEGU DOKUMENTÓW W FIRMIE 
+
+2. SCHEMAT POSTĘPOWANIA W SYTUACJI PRZYJMOWANIU NOWEGO PRACOWNIKA 
+
+3. DZIAŁANIE APLIKACJI BAZUJĄCEJ NA SYSTEMIE GPS 
+
+4. PROGRAMY DZIAŁU TECHNICZNEGO 
+
+5. 4TRANS INTEGRACJA 
+
+6. INTEGRACJA Z WAGAMI NAJAZDOWYMI 
+
+7. INTEGRACJA TERMINALEM PALIWOWYM 
+
+8. INTEGRACJA Z TERMINAREM ADBLUE ORAZ PŁYNU DO SPRYSKIWACZY 
+
+9. INTEGRACJA Z RADAREM PRĘDKOŚCI 
+
+10. SYSTEM OBSŁUGI TRANSPORTU I PRACOWNIKÓW MOBILNYCH 
+
+11. WARSZTAT I MAGAZYN 
+
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+I. BIURO OBSŁUGI KLIENTA 
+
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+1. WIDOK PODSTAWOWY DLA BIURA OBSŁUGI KLIENTA 
+1.1. KONTRAHENCI  
+
+1.2 UMOWY/ZLECENIA 
+
+1.3 LOKALIZACJE 
+
+1.4 POZYCJE UMÓW/ZLECEŃ 
+
+1.5 REJESTR USŁUG/ZLECEŃ 
+
+
+
+
+
+ 
+ 
+  
+- Wyszukiwanie kontrahenta po NIP (bez znaczenia sposób wprowadzania), po numerze klienta lub po fragmencie nazwy klienta), np. dla klienta Przedsiębiorstwo Państwowe Porty Lotnicze możliwość wyszukania po wprowadzeniu ciągu znaków: przed pa port. 
+
+- Edycja danych klienta w BOK (niebieska strzałka) lub SAP (żółta). 
+
+- Podgląd faktur w SAP, ze wskazaniem statusu faktur (wysłana, wydrukowana, zamknięta (zamknięta/zafakturowana). 
+
+
+ 
+- Wyszukiwanie po numerze umowy, nazwie kontrahenta, lokalizacji. 
+
+- Możliwość podglądu historii zmian na umowie (szczegółowe, ze wskazaniem wprowadzonych zmian i wskazaniem użytkownika). 
+
+- Możliwość wydruku umowy na ustawionym wzorze, wydruku harmonogramu usług dla poszczególnych lokalizacji. 
+
+- Możliwość podpięcia załączników do umowy- np. skan umowy. 
+
+
+ 
+- Możliwość wyszukania klienta po adresie, ze wskazaniem czy adres występuje na zleceniu jednorazowym czy na umowie u klienta. 
+
+- Możliwość wyszukania adresu i wskazania go na mapie Targeo. 
+
+
+ 
+- Możliwość wyszukania adresu klienta na umowie. 
+
+
+ 
+- Widok wszystkich zleceń dla danego klienta- możliwość sortowania według własnego uznania. Zaznaczenie tylko zleceń zrealizowanych, do zrealizowania, przydzielonych, przesuniętych, usuniętych lub w tzw. przechowalni. Sortowanie w określonych datach, wszystkich lub wybranych usług. 
+
+- Możliwość dodatnia nowego zlecenia z umowy (ze wszystkimi danymi z umowy + blokada zmiany danych z wyłączeniem ilości pojemników/kontenerów (w przypadku zmiany ilości przy kontenerach powinny generować osobne zlecenia) oraz daty wykonania usługi) lub zlecenia jednorazowego (pustego bez danych na zleceniu, wprowadzone tylko dane klienta). 
+
+- Przy dodawaniu podstawienia kontenera w zleceniu „z umowy” odbiór generuje się po 30 dniach a w przypadku „zlecenia jednorazowego po 7 dniach.  
+
+
+- Możliwość stworzenia zestawienia w excel z wybranymi danymi. 
+
+- Możliwość sprawdzenia powiązanych zleceń (podstawienie + odbiór kontenera). 
+
+- Zakładka „BDO” – sugestia: jedno miejsce wyboru kodu odpadu i generowania KPO lub generujemy KPOK. W tym momencie wybieramy przyczynę zlecenia, ładunek oraz przypinamy KPO lub KPOK w zupełnie różnych miejscach – łatwo się pomylić. Możliwość przesunięcia zlecenia z wygenerowaniem zlecenia dopłaty w przypadku zleceń jednorazowych + blokada tej funkcjonalności w przypadku zleceń z umowy. 
+
+- W przypadku dodawania zlecenia „usługa transportowa” powinno być „wymuszane” podanie przyczyny zlecenia (np. wjazd na budowę zastawiony przez koparkę, godz. 12:45). 
+
+
+ 
+  
+2. MODUŁ: KREATOR DODAWANIA KONTRAHENTA 
+2.1. WPROWADZANIE DANYCH KLIENTÓW- DANE PODSTAWOWE 2.1.1. Klienci indywidualni (osoby fizyczne) 
+
+
+
+
+
+
+
+
+ 
+ 
+  
+ 
+POLA OGÓLNE 
+ 
+
+  
+  
+- Wyszukiwarka GUS – po wpisaniu nr NIP możliwość pobrania danych z GUS i przeniesienia ich na formularz. 
+
+
+ 
+
+ 
+- Błędny NIP (komunikat z systemu w sytuacji, kiedy klient o takim nr NIP istnieje) komunikat powinien pokazać się w od razu po wprowadzania numeru NIP, a nie na końcu w momencie zatwierdzania danych. 
+
+- ID kontrahenta (nadawane automatycznie przez system). 
+
+- Nazwisko, imię. 
+
+- Nr dowodu osobistego, pesel. 
+
+- Telefon stacjonarny i komórkowy. 
+
+- Adres email (wykorzystywany jako informacyjny oraz do wysyłki informacji windykacyjnych z SAP). 
+
+
+- Projekt PH – zaciąganie z danych w SAP wykorzystywany między innymi do wskazania sposobu księgowania faktur (np. w przypadku faktur budżetowych z nabywcą i płatnikiem)- ważne uzgodnienie tej funkcjonalności z osobami odpowiedzialnymi za SAP.  
+
+- Pole uwagi (klienci, którzy mają wpisane uwagi powinni być wyróżnieni (np. pojawiający się wykrzyknik przy nazwie), tak aby osoba przyjmująca zlecenie zwróciła na to uwagę – mogłoby to być miejsce, gdzie wpisywalibyśmy uwagi typu „drukować na fakturach lokalizację wykonania usługi” kl. 65868 Moje Bambino lub klient problematyczny w przypadku aneksów podwyżkowych lub powiązany z kl. ……. (np. ZPR) – koniecznie takie same ceny). 
+
+- Grupa kontrahenta (słownik z SAP- obiorca krajowy, zagraniczny, międzynarodowy). 
+
+- Grupa PH (partnera handlowego)- grupa i podgrupa do której przypiszemy klienta – możliwość tworzenia dowolnej ilości grup i podgrup, możliwość tworzenia słowników grup i podgrup. Dane są wykorzystywane np. do grupowania klientów według sposobu fakturowania i oznakowania klientów jako dłużników.  
+
+- Forma płatności - służy do oznakowania formy płatności dla klienta dla zleceń poza umową (ustawiony słownik)  
+
+- Każdy klient jest oznakowany statusem- „prospekt” – widoczny po wprowadzeniu do systemu tylko w SAP  i czy jest „aktywny”- według oznakowania w SAP. Klient w statusie prospekt może być wprowadzany np. tylko na potrzeby ofert. 
+
+- Aktywny- Każdy klient ma swoje oznakowanie w SAP czy aktywny czy nie. Jeśli klient nie jest aktywny w sap, program BOK powinien rozpoznawać i informować użytkownika o tym. Nie powinno być możliwości np. wprowadzenia zlecenia, umowy na kontrahencie który nie jest aktywny w SAP.  
+
+
+ 
+  
+POLA DODATKOWE 
+ 
+
+- Dziel KPO – NIEUŻYWANE. 
+
+- Pole blokada kontrahenta- dotyczy np. blokad na kliencie- z podaniem zakresu dat, przyczyn blokady, opisu blokady. Blokady mogą być ustawione jako windykacyjne (te są ustawiane w danych podstawowych klienta oraz w umowach) oraz związane z innymi kwestiami- np. z powodu braku podpisanego aneksu przez klienta lub z konieczności wprowadzenia uwag widocznych przy zleceniach). Zdejmowanie blokad jest możliwe tylko przez uprawnione osoby (ustawiane w SAP).  
+
+- Informacja o blokadzie kontrahenta windykacyjnej, innej blokadzie lub informacja np. o sposobie przyjmowania zleceń jaką pracownik BOK powinien zobaczyć powinna pojawić w przy otwieraniu okna kontrahenta lub okna zlecenia- obecnie pojawia się przy zatwierdzeniu zlecenia- za późno.  
+
+- Uzupełnienie informacji o BDO- dane do wprowadzenia API (wystawianie kart w BDO w imieniu klienta)- BDO client ID oraz BDO client secret (login i hasło generowane przez klienta) 
+
+- Status BDO- ustawienie czy klient jest aktywny czy nieaktywny – w przypadku klientów fizycznych pole jest zaznaczane jako nieaktywny, aktywne ustawiane automatycznie po ściągnięciu danych z BDO. Pole przyczyna- do wyboru ze słownika w przypadku nieaktywnego klienta (osoba fizyczna, klient zwolniony z ewidencji, KPO papierowe, gmina). 2.1.2. Klienci instytucjonalni (firmy) - pola obowiązkowe: 
+
+
+
+
+
+ 
+ 
+ 
+
+Część pól analogicznie jak w przypadku klienta indywidualnego.  
+- NIP (komunikat z systemu w sytuacji, kiedy klient o takim nr NIP istnieje) komunikat powinien pokazać się w od razu po wprowadzania numeru NIP, a nie na końcu w momencie zatwierdzania danych. 
+
+- ID kontrahenta (nadawane automatycznie przez system). 
+
+- Nazwa. 
+
+- Regon, KRS. 
+
+- Nr rej BDO (ściągany automatycznie z rejestru BDO). 
+
+- telefon stacjonarny i komórkowy. 
+
+- Adres email (wykorzystywany jako informacyjny oraz do wysyłki informacji windykacyjnych z SAP). 
+
+
+- Projekt PH – zaciągany z danych w SAP wykorzystywany między innymi do wskazania sposobu księgowania faktur (np. w przypadku faktur budżetowych z nabywcą i płatnikiem). 
+
+- Pole uwagi. 
+
+- Grupa kontrahenta (słownik z SAP- obiorca krajowy, zagraniczny, międzynarodowy). 
+
+- Grupa PH (partnera handlowego)- grupa i podgrupa do której przypiszemy klienta – możliwość tworzenia dowolnej ilości grup i podgrup, możliwość tworzenia słowników grup i podgrup. Dane są wykorzystywane np. do grupowania klientów według sposobu fakturowania i oznakowania klientów jako dłużników.  
+
+- Forma płatności - służy do oznakowania formy płatności dla klienta dla zleceń poza umową (ustawiony słownik). 
+
+
+ 
+POLA DODATKOWE – opis jak wyżej 
+ 
+UWAGI: Brak wprowadzenia niektórych danych uniemożliwi zapisanie kontrahenta (pola obowiązkowe oznakowane czerwonym kółkiem z krzyżykiem). 
+ 
+Funkcjonalności do wprowadzenia: 
+- Połączenie pola ogólnego oraz dodatkowego w jedno – ze zmiennymi polami do uzupełnienia w zależności od tego czy osoba fizyczna czy firma. W przypadku wprowadzenia NIP- klient z automatu zostaje ustawiony jako firma i powinny pojawić się dane związane z BDO, dla osób fizyczne dane nie muszą się pojawiać, klient powinien być oznakowany z automatu jako nieaktywny w BDO. 
+
+- Informacja o blokadzie/ uwagach do kontrahenta powinna pojawiać wyraźnie przy otwarciu głównego okna z danymi kontrahenta oraz przy wprowadzeniu zlecenia (aktualnie pojawia się przy próbie dodania zlecenia do sytemu- po wprowadzeniu wszystkich danych zlecenia). 
+
+
+ 
+ 
+  
+3. MODUŁ: OSOBY KONTAKTOWE 
+
+
+ 
+Pola: 
+- stanowisko, nazwisko i imię 
+
+- telefon kontaktowy, fax 
+
+- telefon, email (dodatkowo do zaznaczenia zgody  na sms i email) 
+
+- efaktura/ e- wysyłka – pole rozwijane, opis poniżej 
+
+
+ 
+
+
+
+ 
+Pola: 
+. pola wpisania 3 adresów do wysyłki do e-faktur 
+
+. możliwość wyboru sposobu wysyłki e-faktury- w przypadku zaznaczenia pola faktury w PDF, wysyłka jest realizowana w tej formie. W innych przypadkach faktura jest wysyłana jako link (szczegółowy opis poniżej) 
+
+. zaznaczenie informacji, które powinny być razem z fakturą  przekazane klientowi na portal: saldo, zestawienia zrealizowanych usług, akcje jednorazowe, harmonogramy. 
+
+
+
+
+
+Funkcjonalności do wprowadzenia: 
+- Brak możliwości połączenia adres do efaktur- lokalizacja, tak by na wskazane adresy mailowe były przesyłane jedynie faktury dotyczące danej umowy/ lokalizacji – do wprowadzonego adresu przesyłane są wszystkie wystawiane dokumenty na PH, 
+
+- Brak archiwizacji danych kontaktowych – możliwe jedynie usunięcie lub nadpisanie (np. brak informacji o poprzednim adresie ze zgodą do efaktur), 
+
+- Brak historii wprowadzanych danych – nie wiemy np. od kiedy jest wprowadzona zgoda na efakturę, 
+
+- Brak przypisania danych osób kontaktowych do konkretnych lokalizacji 
+
+
+ 
+4. MODUŁ: ADRESY 
+
+
+ 
+
+ 
+- Typ adresu: do wyboru: adres fakturowania, adres odbioru. 
+
+- Rodzaj adresu: korespondencyjny, korespondencyjny i odbioru, odbioru, płatnik (do faktur budżetówek). 
+
+- Wyłącz słowniki (uprawnienia do tego pola ustawiane dla poszczególnych użytkowników w SAP). 
+
+- Miasto, ulica, nr posesji, nr lokalu, kod pocztowy- ze słownika. Istnieje możliwość nie niektórych użytkowników dodania np. brakującego kodu pocztowego, ulicy.  
+
+- Po wyborze odpowiedniego kodu pocztowego, pola dzielnica/gmina, powiat/ województwo uzupełniają się automatycznie. 
+
+
+- Osoba kontaktowa, stała blokada lokalizacji – nie używane. 
+
+- Zarządca- wprowadzenie nazwy zarządcy klientów (konieczna możliwość stworzenia raportu klientów z tego pola). 
+
+- BDO IS adresu- dane adresu do API BDO (zaciągane z BDO). 
+
+- Uwagi. 
+
+- Nazwa adresu- wykorzystywana przy adresach korespondencyjny i płatnikach. 
+
+
+ 
+Funkcjonalności do wprowadzenia: 
+- Propozycja sposobu wprowadzenia i adresów w przypadku faktur budżetowych – z nabywcą i płatnikiem 
+
+- Aktualizacja słowników online lub możliwość ręcznego scalania adresów w celu uporządkowania błędnie wprowadzonych (wielokrotnie) słowników (Aleja Jana Pawła; Aleje Jana Pawła; Al. Jana Pawła; Al. J. Pawła itp.) 
+
+
+  
+5. MODUŁ: UMOWA 
+5.1. Dane podstawowe umowy: 
+
+
+
+
+
+ 
+ 
+ 
+ 
+- Nr klienta, nazwa klienta 
+
+- Nr umowy (nadawany automatycznie), nr umowy według klienta- do uzupełnienia ręcznie (powinniśmy mieć możliwość wyszukania umowy po numerze umowy klienta)  
+
+- Aneksy (możliwość dodania aneksu do umowy- zmieniającego np. stawki w umowie. Wprowadzenie aneksu z konkretną datą pozwoli na zmianę stawek do fakturowania od tej daty. Konieczna pełna historia wprowadzonych aneksów. Zamknięcie aneksu i zamknięcie cyklu powinno spowodować nie generowanie się harmonogramów. Bardzo ważne: możliwość wprowadzenia aneksu w ciągu danego miesiąca z wejściem w życie na początku tego miesiąca- system powinien zaktualizować ceny na zleceniach przyszłych oraz zapytać użytkownika czy stawki na zleceniach zrealizowanych nie powinny zostać zaktualizowane). Na wydruku aneksu powinny pojawić się jedynie zmienione pola – na ten moment pojawiają się wszystkie pozycje, również te zamknięte. 
+
+- Data umowy, rozpoczęcie umowy- wpisywane z kalendarza.  
+
+- Data zakończenia umowy- wpisywana z kalendarza. Pole może pozostać puste w przypadku umów na czas określony. Wprowadzenie daty zamknięcia umowy powoduje zamknięcie otwartych cykli w umowie (nie zmienia dat w cyklach zamkniętych). 
+
+
+ 
+
+- Status umowy- możliwość zamknięcia całkowitego lub anulowania umowy (propozycja- wprowadzenie możliwości usunięcia umowy przez uprawione osoby). 
+
+- Osoba do kontaktów- do wprowadzenia z karty kontrahenta. 
+
+- Źródło umowy- do wprowadzenia ze słownika (przetarg, oferta, ulotka). 
+
+
+- Co ile fakturować- ustawienie ze słownika fakturowania co miesiąc lub co kwartał. 
+
+- Forma płatności- ze słownika- istnieje możliwość innej formy płatności na podstawie umowy i inna forma płatności dla zleceń poza umową. 
+
+- Zafakturowane do: pole z danymi z sap wskazujące na ostatnio wystawioną z umowy fakturę. 
+
+- rezerwacja- nie używane. 5.2. Pozycje umowy 
+
+
+
+
+
+Możliwość oznakowania części umów jako umowy wewnętrzne- wprowadzone tylko na potrzeby prawidłowego fakturowania oraz ewentualnego ustawienia harmonogramu.  
+Możliwość wyszukania umów otwartych, na których nie były realizowane zlecenia – np. w ostatnich trzech miesiącach.  
+Linkowanie umów – dostęp do wszystkich umów z poziomu BOK do skanu podpisanych umów i aneksów. 
+Kategoryzacja umów – ustalenie stopnia poufności i użytkowników posiadaących dostęp.  
+ 
+ 
+  
+ 
+
+ 
+Adresy: 
+ 
+
+- Wykonania, fakturowania, korespondencyjny, BDO id adresu 
+
+- E-faktura, SMS, adres kopii email, rodzaj wysyłki- aktualnie nieużywane. 
+
+
+ 
+Dane podstawowe:  
+ 
+
+• liczba porządkowa- numer pozycji umowy 
+
+• sumuj z pozycją- pozwala na zsumowanie kilku pozycji umowy przy fakturowaniu 
+
+• materiał pojemnika- nieużywany 
+
+• Rodzaj usługi:  
+
+- Śmieciarki 
+
+- HDS 
+
+- Kontenery 
+
+
+- Akcja zima 
+
+- Zlecenia własne 
+
+- Porządkowe 
+
+- Utylizacja 
+
+• Usługa (fragment): 
+
+- Wywóz odpadów 
+
+- Selektywna zbiórka odpadów 
+
+- Wywóz i zagospodarowanie odpadów 
+
+- Wywóz nieczystości płynnych 
+
+- Wynajem kabin WC 
+
+- Odśnieżanie mechaniczne 
+
+• Typ usługi (fragment) – uzależniony od rodzaju usługi 
+
+- śmieciarki: opróżnienie pojemnika, dezynfekcja pojemnika, wymiana pojemnika 
+
+- kontenery: podstawienie, wymiana, odbiór 
+
+- HDS: podstawienie pojemnika, odbiór pojemnika 
+
+• Pojemnik (fragment)- uzależniony od rodzaju usługi: 
+
+- śmieciarki: 1100l, 1100l komunalny, 1100l papier 
+
+- kontenery: KP1,5, KP7, prasokontener, KP7p  
+
+- HDS: gabaryty, szambo, odpady niebezpieczne 
+
+• Indeks pojemnika- powiązany z magazynem w SAP 
+
+• Ilość z umowy- ilość pojemników/ kontenerów zgodna z umową (ilość z umowy powinna automatycznie aktualizować się z ilością na harmonogramie, ale z możliwością edycji – bywa, że klient ma np. 4 pojemniki ale opróżniamy co 1 tydzień po 2 szt.) 
+
+• Sposób rozliczania: 
+
+-  ilość z umowy- istotne przy śmieciarkach- w przypadku zrealizowanego podjazdu przy pustym pojemniku lub niewystawieniu pojemnika- klient zostanie obciążony opróżnieniem pojemników w ilości z umowy (w przypadku nadwyżek większą ilością). 
+
+- faktyczna ilość- w przypadku zrealizowanego podjazdu przy pustym pojemniku klient nie zostanie obciążony za opróżnienie, jeśli u klienta stoi wiele pojemników zostanie obciążony tylko za faktycznie opróżnione pojemniki. 
+
+• fakturować: tak lub nie. 
+
+
+• Właściciel pojemnika: klient, BYŚ lub inne – pole związane z naliczanie dzierżawy za pojemnik lub kontener. 
+
+• Jednostka miary- do wyboru ze słownika (sztuka, Mg, kurs, m-c, itp.). 
+
+• Jednostka fakturowania – do wyboru ze słownika (sztuka, Mg, kurs, m-c, itp.). 
+
+• Ilość fakturowana, licznik, mianownik- związane ze sposobem fakturowania- w przypadku przeliczenia kg na Mg lub przeliczenia kontenera na m3 należy wprowadzić odpowiednio licznik i mianownik. 
+
+• Brak pola na numer RFID pojemnika / kontenera – przypisywany automatycznie podczas skanowania (inwentaryzacji) 
+
+
+ 
+Cena:  
+ 
+
+• Cennik- ceny wprowadzone w słowniku- przy wprowadzeniu odpowiedniego cennika stawki uzupełnią się automatycznie 
+
+• Cena netto- wprowadzana ręcznie 
+
+• Nazwa podatku – uzupełniana automatycznie z SAP 
+
+• Rabat, licz fakturę od netto- nie używany 
+
+• Cena brutto- uzupełniana automatycznie 
+
+
+Dane dodatkowe: 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+• Minimalna dzierżawa- minimalna ilość zrealizowanych usług w ciągu miesiąca, aby nie została naliczona dzierżawa z pola wartość dzierżawy- np. przy wprowadzeniu minimalnej ilości: 2 oraz wartości dzierżawy 200 naliczenie zostanie wyliczone w następujący sposób: w przypadku zrealizowania wymiany lub odbioru kontenera w ilości 1 w ciągu miesiąca na fakturze zostanie naliczona usługa eksploatacji kontenera w kwocie 200. W przypadku 3 zleceń w ciągu miesiąca usługa eksploatacji nie zostanie naliczona. 
+
+
+Jeśli w polu minimalna dzierżawa zostanie wprowadzona ilość 0, dzierżawa będzie naliczała się każdego miesiąca.  
+Konieczne ustalenie prostego mechanizmu naliczania dzierżaw dla kontenerów z pozycjami w umowach na strefy z różnymi ładunkami i różnymi stawkami za odbiory. 
+ 
+Dzierżawa nalicza się tylko i wyłącznie dla pozycji umów które mają otwarte cykle. 
+• Minimalny ryczałt, wartość ryczałtu- analogicznie jak przy dzierżawie. 
+
+• Próg nadtonażu, wartość nadtonażu- związana z rozliczeniem klienta za tonaż odpadów- na przykład przy wprowadzeniu progu 1000 oraz wartości 500, klient zostanie naliczony 500zł za każdy kontener który waży powyżej 1000kg oraz dodatkowo za cenę ryczałtową kontenera wprowadzoną w polu cena netto. Tego typu rozliczenie w przypadku np. kontenerów KP7.  
+
+
+Sposób rozliczenia usługi jest uzależniony od usługi- inne rozliczenia w przypadku wywozu odpadów oraz przyjęcia odpadów do sortowni.  
+• Potwierdzenie KPO- związane z wystawianiem KPO do zlecenia- obecnie nie używane 
+
+• Potwierdzenie wywozu- do wyboru ze słownika- tak lub nie- przy wyborze tak np. przy każdym zleceniu na kontener dyspozytor ma możliwość wydrukowania ze zlecenia wzoru potwierdzenia do zabrania przez kierowcę do klienta. Wzór potwierdzenia 
+
+
+podpięty jest w systemie, drukuje się z uzupełnionymi danymi klienta (wzór potwierdzenia wskazany w załącznikach do tego opracowania). 
+
+• Grupa fakturowania – związana ze sposobem wystawienia faktury- w przypadku ustawienia tej samej grupy fakturowania (ustawiane automatycznie) zostanie wystawiona jedna faktura ze wszystkimi pozycjami; w przypadku ustawienia kilku grup faktura np. związanych z ulicami realizacji usług zostanie wystawionych kilka faktur zgodnie z ustawionymi grupami. 
+
+• Tekst drukowany- tekst pojawiający się na fakturze- z automatu w tym polu pojawia się lokalizacja – użytkownik może wprowadzić własne informacje- np. numer zamówienia. 
+
+• Uwagi- pole do dowolnego tekstu użytkowników. 
+
+
+ 
+Konieczność wprowadzenia prostszego zapisania wszystkich możliwości zafakturowania usług, które po wybraniu np. z listy pojawiają się lub podświetlają jedynie wymagane pola do wyświetlenia: 
+Kontenery 
+1. Ilość x cena 
+
+2. Ilość x cena + dzierżawa 
+
+3. Ilość x cena + transport 
+
+4. Ilość x cena + transport + dzierżawa 
+
+5. Ilość x waga  
+
+6. Ilość x waga + transport 
+
+7. Ilość x waga + transport + dzierżawa 
+
+8. Ilość x waga z zachowaniem minimalnej ceny usługi 
+
+9. Ilość x waga + transport z zachowaniem minimalnej ceny usługi 
+
+10. Ilość x waga + transport z zachowaniem minimalnej ceny usługi 
+
+11. Ilość x waga + transport + dzierżawa z zachowaniem minimalnej ceny usługi 
+
+12. Transport 
+
+13. Transport + dzierżawa  
+
+14. Dzierżawa 
+
+
+HDS - niebezpieczne 
+1. Ilość x cena 
+
+2. Waga x cena 
+
+3. Waga x cena + transport 
+
+
+4. Ilość x cena + transport 
+
+
+HDS – szambo 
+1. Ilość x cena z zachowaniem minimalnej ilość  
+
+
+HDS – kabina WC 
+1. Ilość x cena  
+
+2. Ilość x cena + dzierżawa 
+
+
+Pojemniki 
+1. Ilość x cena 
+
+
+Akcja zima 
+1. Ilość godzin x cena + waga zużytej soli x cena 
+
+
+Cykl: 
+  
+
+ 
+
+• Adres wykonania- z pozycji umowy 
+
+• Pojemnik – z pozycji umowy 
+
+• Wzorzec cyklu- możliwość ustawienia cyklu dziennego, tygodniowego, miesięcznego, rocznego lub brak cyklu (na zlecenie telefoniczne) 
+
+
+• Zakres cyklu- początek i koniec cyklu (przenoszony z daty zakończenia umowy lub wprowadzany ręcznie, godzina wprowadzana ze słownika 
+
+• Szczegóły: ilość przeniesiona automatycznie z pozycji umowy lub modyfikowana ręcznie 
+
+• Trasa- wybierana ze słownika – dla śmieciarek trasy T1, T2. 
+
+• ID trash- nie używane. 
+
+• Kwadrat- powiązany z układem wydruku trasówek dla kierowców. 
+
+• Przyczyna blokady- wybierana ze słownika- np. podjazd odwołany przez klienta. 
+
+• Blokada od-do wybierane z kalendarza pozwala na zablokowanie czasów podjazdów. 
+
+• Opis blokady- wprowadzany ręcznie jako wewnętrzna notatka. 
+
+• Uwagi- wprowadzane ręcznie widoczne na wydruku trasówki dla kierowcy. 
+
+
+ 
+Przy zmianie harmonogramu przez użytkownika system powinien generować informację o zmianie harmonogramu i wysyłać ją do klienta. Konieczna jest wysyłka informacji do klientów przy masowych zmianach w harmonogramie- przesunięcie dni odbioru przez dział logistyki.  
+BRAK KALENDARZA ŚWIĄT – konieczność wprowadzenia dni świątecznych – wolnych od pracy i uwzględnienie ich już przy tworzeniu harmonogramu – przesunięcie dat odbioru wg. ustalonych 2-3 scenariuszy. 
+W ustalaniu cyklu – mechanizm podpowiadający, jaka śmieciarka powinna być przypisana do danego cyklu, która będzie najbardziej optymalna. 
+ 
+ 
+ 
+  
+Ładunek: 
+ 
+ 
+
+ 
+• Ładunek- wybierany ze słownika, przenoszony potem do zlecenia z umowy. 
+
+• Kod odpadu- wybierany ze słownika. 
+
+• Nazwa odpadu- uzupełniana automatycznie po wyborze kodu odpadu. 
+
+• Procent- z automatu uzupełniany 100%, możliwość ręcznej zmiany. 
+
+• Możliwość wprowadzenia kilku kodów odpadów- zawsze sumujących się do 100% (kontrola systemu) 
+
+• Waga- wskazuje masę odpadów przy danym kodzie po zatwierdzeniu zlecenia. 
+
+• Kody i nazwy odpadów przenoszą się zawsze do przyjmowane z umowy zlecenia.  
+
+• Znacznik waga x ilość usług obecnie nie używana. 
+
+
+Konieczność wprowadzenia znacznika kodu komunalnego (np. w przypadku kodu 15 01 01, 17 09 04). 
+ 
+  
+Protokoły: 
+ 
+
+• Numer protokołu- nadawany automatycznie. 
+
+• Typ- protokół podstawienia, odbioru. 
+
+• Data protokołu. 
+
+• Ilość- odebranych pojemników. 
+
+• Nr zlecenia (wygenerowanego z poziomu protokołu). 
+
+• Protokół utraty – kradzieży/ spalenia do podpisu przez obie strony 
+5.3. Szczegóły umowy 
+
+
+
+
+
+ 
+Protokół generowany jest z głównego okna umowy, istnieje możliwość wygenerowania protokołu dla jednej lub kilku naraz pozycji umowy. Z pozycji protokołu istnieje możliwość wygenerowania zlecenia podstawienia pojemników (odrębne zlecenia dla różnych typów pojemników). 
+Uwagi do wprowadzania umów- istnieje możliwość skopiowania pojedynczych pozycji umowy w ramach jednej umowy, skopiowania całej umowy w ramach jednego kontrahenta oraz możliwość skopiowania całej umowy do innego kontrahenta.  
+Konieczna blokada uniemożliwiająca przeniesienie umowy na innego kontrahenta „przez przypadek”.  
+ 
+
+- reprezentant 
+
+- gwarancja ceny 
+
+- blokada windykacyjna- zakładana przez osoby posiadające odpowiednie uprawnienia ustawiane w SAP zakładana w jednym miejscu przy kontrahencie. 
+
+- naliczanie dzierżawy za każdy dzień – ustawienie sposobu naliczania dzierżawy- za cały miesiąc lub za każdy dzień 
+
+- wydruk umowy i aneksu- możliwość podpięcia w SAP różnych wzorów umów i aneksów według ustawionego wzoru w Cristal Reports. Przy wypełnieniu umowy w systemie możliwość wydruku pełnej umowy. 
+
+- wydruk faktury- możliwość podpięcia w SAP różnych wzorów wydruku faktury (np. faktury z odbiorcą i płatnikiem). Możliwość tworzenia różnych wzorów i przypisywania wzorów do grup lub podgrup klientów w ustawieniach programu lub indywidualnie klientowi 
+
+- przyczyna zakończenia – ustawiana ze słownika przyczyna zakończenia umowy 
+
+- opiekun- wybierany ze słownika 
+
+- wydruk potwierdzenia- podpinany wzór potwierdzenia zrealizowanych usług 
+
+
+- wartość umowy, wartość wykorzystywana, maksymalna wartość faktury miesięcznej, wartość pozostała- wyliczana na podstawie wystawionych z umowy faktur (do wprowadzenia: powiadomienia do osób uprawionych w przypadku wykorzystania limitu)  
+
+- status wersji dokumentu- wybierany ze słownika, wskazuje czy posiadamy oryginał umowy, skan czy mail. 
+5.4.  Uwagi do fakturowania 
+
+
+
+
+
+ 
+Istotna informacja: wzory wydruków faktur są obecnie ustalane w SAP- konieczna integracja w tym zakresie.  Podstawowe wzory faktur załączone jako odrębny plik z zrzutami z systemu: 
+ 
+ 
+Propozycja modyfikacji: Pole znacznika dla wystawienia dla danego klienta faktur „ryczałtowych” tzn. takich iż określona jest jedna kwota miesięczna a wywozy z kilku, kilkunastu lub więcej posesji. 
+ 
+  
+ 
+
+- Uwagi do fakturowania wprowadzane ręcznie – powinny pojawić się użytkownikowi przez wystawieniem faktury z umowy w generatorze faktur. Powinna być tu informacja kto dodał taką uwagę oraz kiedy.  
+
+
+ 
+6. UWAGI KOŃCOWE DO MODUŁÓW PODSTAWOWYCH 
+
+1. Numer nadany klientowi w systemie jest numerem unikalnym i program nie może pozwolić na nadanie tego numeru żadnemu innemu klientowi- konieczna kontynuacja numerów klientów istniejących w systemie 
+
+2. Automatyczne nadawanie numerów dla umów, ofert, zleceń, reklamacji, innych dokumentów – uzgodnione na etapie wdrożenia. Każda z grup dokumentów musi mieć swoją odrębną numerację. 
+
+3. Jednorazowe zakładanie klienta i możliwość zakładania kilku umów o różnej treści pod klientem 
+
+4. Każda umowa oddzielnie rozliczana – z możliwością wprowadzenia rożnych terminów płatności dla umów.  
+
+5. Ewidencja wykorzystanych środków z umowy – okienko do wprowadzenia wartości ogólnej umowy i obok o zafakturowanych usługach. 
+
+6. W module obsługi klienta podstawowa informacja o zadłużeniu klienta. 
+
+
+ 
+  
+7. PRZYJMOWANIE ZLECEŃ 
+
+
+7.1 Zlecenie jednorazowe 
+  
+
+Typ zlecenia 
+ 
+
+Pola obowiązkowe: 
+- wskazanie typu zlecenia- jednorazowe czy z umowy- w przypadku zleceń jednorazowych musi być możliwość wpięcia zlecenia z umowę (wskazany numer oraz pozycja umowy) - wszystkie dane z umowy powinny przenieść się do zlecenia 
+
+- klient- dane pobrane automatycznie z systemu  
+
+- fakturować- tak/nie 
+
+- dane osoby zgłaszającej (do wprowadzenia ręcznie lub do pobrania z systemu) 
+
+- status zlecenia  
+
+- nr zamówienie według klienta (pole powinno być widoczne po wystawieniu faktury) 
+
+- data przyjęcia zlecenia (wypełniana automatycznie) 
+
+- adres wykonania (do uzupełnienia z systemu) 
+
+- przyczyna zlecenia (do wyboru ze słownika) 
+
+
+Konieczna blokada możliwości zmiany adresu wykonania zlecenia- w szczególności w zleceniach z umowy, przechowalni itp. 
+ 
+ 
+ 
+ 
+Zamówiona usługa 
+ 
+
+- Rodzaj usługi: przy zleceniu jednorazowym automatycznie wprowadzana usługa KONTENERY 
+
+- Usługa: do wyboru ze słownika, podpowiadają się usługi powiązanie z rodzajem usługi 
+
+- Typ usługi: przy zleceniu jednorazowym automatycznie podpowiada się typ podstawienie 
+
+- Ilość: z automatu przy kontenerach podpowiada się 1 
+
+- Ilość zleceń do wygenerowania: z automatu podpowiada się 1, przy wpisaniu ręcznie innej liczby- taka ilość zleceń wygeneruje się w systemie 
+
+- Jednostka miary: do wyboru ze słownika, z automatu przy kontenerach podpowiada się szt. 
+
+- Ładunek: przewidywany ładunek, do wyboru ze słownika 
+
+- Pojemnik: do wyboru ze słownika 
+
+- Nr kontenera: do wpisania ręcznie 
+
+
+ 
+
+- Data podstawienia: do wybrania z kalendarza, automatycznie podpowiada się aktualna data. 
+
+
+- Godzina podstawienia: do wybrania ze słownika (do rozważenia podpowiedź godziny wprowadzonej przez dyspozytorów jakie są możliwości logistyczne danego dnia). 
+
+- Data odbioru: z automatu wprowadza się data powiązana z polem „po dniach”- który jest wprowadzany przez administratora BOK zgodnie z logistycznymi możliwościami firmy. 
+
+-  Godzina podstawienia: do wybrania ze słownika (do rozważenia podpowiedź godziny wprowadzonej przez dyspozytorów jakie są możliwości logistyczne danego dnia). 
+
+- Wymagane potwierdzenia: do zaznaczenia jeśli jest potrzeba potwierdzenia zlecenia z klientem. 
+
+- Termin ustalony z PH: do zaznaczenia jeśli jest potrzeba potwierdzenia zlecenia z klientem, pole jest istotne przy oznakowaniu zlecenia jako przechowalnia. 
+
+- Uwagi: wprowadzane przez użytkownika uwagi do zlecenia: dla dyspozytora, kierowcy, osoby fakturującej itp. 
+
+- Osoba do kontaktu- możliwość pobrania z karty kontrahenta lub wprowadzenia ręcznie. Możliwość dodania z tej pozycji kontaktu do karty kontrahenta, konieczne przeniesienie danych z tego pola do zlecenia na tablecie lub wydruku dla kierowcy. 
+
+- Wprowadzenia pola: zlecenie telefoniczne/ mailowe 
+
+
+ 
+ 
+
+Szczegóły: 
+- Cennik: możliwość skorzystania z cennika wprowadzone z system. 
+
+- Cena netto/brutto. 
+
+- Adres fakturowania: wprowadzany automatycznie z karty kontrahenta. 
+
+
+- Faktura: informacja czy faktura wystawiona czy nie- po wystawieniu faktury ze zlecenia lub z generatora faktura automatycznie przypina się do tego pola. Możliwość usunięcia lub dopięcia ręcznego faktur dla osób uprawionych, dla wszystkich możliwość podglądu faktury. 
+
+- Forma płatności: przy zleceniach jednorazowych podpowiada się forma płatności ustalona na karcie kontrahenta. 
+
+- Potwierdzenie KPO: przy zleceniach jednorazowych zawsze ustawione na tak. 
+
+- Potwierdzenie wywozu: przy zleceniach jednorazowych ustawione na nie, możliwość podpięcia formularza potwierdzenia. 
+
+- Generuj: możliwość wygenerowania ze zlecenia faktury, karty przekazania odpadów komunalnych, potwierdzenia wykonania usługi. 
+
+- Konieczna możliwość wprowadzenia dodatkowego tekstu drukowanego – widocznego na fakturze. Aktualnie na fakturach za zlecenia jednorazowe drukuje się tylko numer zlecenia. 
+
+
+ 
+ 
+ 
+
+- Kod odpadu i nazwa odpadu wprowadzana ze słownika, podpowiadane 100%, waga wprowadzana po zatwierdzeniu zlecenia.  
+
+
+ 
+ 
+
+- Pola ryczałt, minimalna dzierżawa, próg nadtonażu, jednostka fakturowania, licznik i mianownik analogicznie jak przy polach z umowy. 
+
+
+ 
+ 
+ 
+Obraz zawierający tekst
+
+Opis wygenerowany automatycznie
+- Możliwość dodania np. dodatkowej usługi transportowej, wynajmu dodatkowego sprzętu- dane te powinny być przenoszone do faktury. 
+
+
+ 
+  
+
+- Dokumenty powiązane- nie używane 
+
+
+ 
+  
+Obraz zawierający tekst
+
+Opis wygenerowany automatycznie
+- Możliwość wysłania linku z płatnością sms/ email – rozróżnia płatności wykonane dla zamówień złożonych online 
+
+- Przypisanie płatności online ręczne (gdy nie wystąpi powiazanie) 
+
+- Status płatności – potwierdzenie zapłaty za zamówienie bezpośrednio pod zleceniem bez konieczności sprawdzania w banku. 
+
+
+ 
+Obraz zawierający tekst
+
+Opis wygenerowany automatycznie
+- Wybierz KPO z BDO / Wybierz KPOK z BDO / Odpięcie karty spod zlecenia 
+
+- Karty wyszukiwanie po NIP w systemie BDO. Dane aktualizowane z BDO co 15 minut lub na życzenie. Konieczna automatyzacja wyszukiwania i podpinania kart. 
+
+
+ 
+Ważne informacje: 
+- Na zleceniach powinny pojawiać się wyraźnie zaznaczone informacje z karty kontrahenta: 
+
+
+- osoba fizyczna lub firma 
+- informacja o sposobie wysyłki faktur 
+- informacja o API BDO 
+- informacja o sposobie ewidencji (eKPO, KPO papier, przejazd na kodzie zwolnionym z ewidencji, firma zwolniona z ewidencji)  
+- informacja o blokadach klienta (ewentualnie uwagach do zleceń- z karty kontrahenta). 
+- Wybrane pola ze zleceń powinny być widoczne dla kierowców na wydrukach papierowych i tabletach. 
+
+- Przy podstawieniu kontenera zawsze musi wygenerować się zlecenie jego odbioru. W zależności od zaznaczenia opcji „termin ustalony z PH” zlecenie pozostaje w statusie „do realizacji” lub „przechowalnia”. 
+
+- Zlecenie wymiany jest wykonywane z pozycji umowy lub ze zlecenia odbioru kontenera. 
+
+- Przy zleceniu wymiany z odbioru kontenera wszystkie uwagi dla kierowcy są kopiowane.   
+
+
+8. PASKI NARZĘDZI W BOK 
+
+
+ 
+8.1 Moduł KARTOTEKI 
+ 
+
+- BOK: powrót do BOK 
+
+- SAP: przeniesienie do SAP 
+
+- E-Sąd: nie wykorzystywane (windykacja obecnie prowadzona w innym programie) 
+
+- Lista umów: lista umów wszystkich kontrahentów z możliwością sortowania po wybranych polach z umowy (np. data i przyczyna zakończenia, rozpoczęcia umowy, itp.) i przeniesienia do excel 
+
+- Lista umów kontrahenta: lista umów dla poszczególnych kontrahentów 
+
+- Lista kontrahentów: lista wszystkich kontrahentów z możliwością sortowania po wybranych polach i przeniesienia do excel. 
+
+- Lista samochodów: lista wprowadzonych do systemów wszystkich samochodów, tras oraz kierowców. 
+
+- Lista kart kierowcy: lista kart drogowych kierowców . 
+
+- Cenniki: możliwość wprowadzania ustalonych cenników. 
+
+- Lista potwierdzeń: lista klientów, którzy mają zaznaczoną opcję „potwierdzenia tak”- możliwość generowania i drukowania potwierdzeń dla wielu klientów jednocześnie. 
+
+
+ 
+ 
+
+
+Opis modułów Ewidencja odpadów i BDO w odrębnym dziale. 
+ 
+8.2 Moduł KONTENERY  
+ 
+
+Statusy zleceń: 
+- Do weryfikacji- kolor szary 
+
+- Do wykonania – kolor biały 
+
+- Przydzielone- kolor żółty 
+
+- Zrealizowane (zatwierdzone) - kolor zielony 
+
+- Przechowalnia – kolor fioletowy (tylko zlecenia odbiorów kontenerów- dotyczy kontenerów z u umów będących własnością BYŚ i stojących u klienta, z odbiorem zaplanowanym i przesuwanym do 30 dni od ostatniego zlecenia) 
+
+- Przesunięte– kolor brązowy (przy kontenerach możliwość przesunięcia zlecenia z dopłatą) 
+
+- Kolor szarozielony- zlecenie usunięte 
+
+
+ 
+  
+Rejestr zleceń i usług – pola obowiązkowe: 
+ 
+
+- Numer karty BDO, status karty BDO 
+
+- Etap (powiązany z wysyłką zlecenia na tablet) 
+
+- ID zlecenia 
+
+- Status zlecenia (przydzielone, do weryfikacji, do wykonania, itp.) 
+
+- Status klienta (związany z BDO) 
+
+- Status API 
+
+- Status BDO 
+
+- Grupa klienta 
+
+- Podgrupa klienta 
+
+- EFV 
+
+- Kod klienta 
+
+- Nazwa klienta 
+
+- Adres 
+
+- Miasto 
+
+- Dzielnica (gmina) 
+
+- Uwagi do zlecenia 
+
+- Cena (netto i brutto) 
+
+- Ładunek 
+
+- Samochód  
+
+- kierowca 
+
+- sposób rozliczenia  
+
+- BDO uwagi 
+
+- BDO kod z karty 
+
+- BDO masa z karty 
+
+- Przyczyna zlecenia 
+
+- Forma płatności 
+
+- Data realizacji 
+
+- Godzina realizacji 
+
+- Dzień tygodnia 
+
+- Rodzaj usługi 
+
+- Pojemnik 
+
+- Ilość 
+
+- Ilość zrealizowana 
+
+- Typ usługi 
+
+- Ładunek planowany 
+
+- Ładunek odebrany 
+
+- Czy fakturować 
+
+
+- Źródło zlecenia (harmonogram, jednorazowe, z umowy) 
+
+- Numer pojemnika odebranego  
+
+- Numer pojemnika podstawionego 
+
+- Numer umowy 
+
+- Pozycja umowy 
+
+- Indeks pojemnika 
+
+- Właściciel pojemnika 
+
+- Zafakturowane (………….) 
+
+- Dane osoby dodającej zlecenia 
+
+- Data dodania zlecenia  
+
+- Dane osoby przydzielającej zlecenie 
+
+- Data przydzielenia zlecenia 
+
+- Informacja o potwierdzeniu 
+
+- Usługi dodatkowe 
+
+- ID trasówki 
+
+- Kwadrat 
+
+- Waga sypania 
+
+- Uwagi po realizacji  
+
+- Dane kontaktowe klienta 
+
+- Indeks / kolor wiersza do tabletów 
+
+
+Na rejestrze usług i zleceń konieczne jest umieszczenie wszystkich danych z karty kontrahenta, pozycji umów, statusu BDO, statusu zlecenia- wszystkich danych dostępnych w BOK. Każdy użytkownik musi mieć możliwość dowolnego ułożenia kolumn, posortowania ich lub usunięcia. Konieczna jest możliwość przeniesienia danych do excel.  
+ 
+ 
+  
+ 
+Obraz zawierający tekst, zrzut ekranu, ramka na zdjęcie
+
+Opis wygenerowany automatycznie
+Moduł zatwierdzania zleceń na kontenery i HDS: 
+ 
+
+Zatwierdzający zlecenia wykonuje to w specjalnym module. Aby rozpocząć proces zatwierdzania należy wprowadzić numer zlecenia i jego datę. 
+Na panelu wyszukają się wtedy zlecenia danego kierowcy z tego dnia. System zaciąga część danych automatycznie z BOK i tabletu kierowcy (dane klienta, dane kierowcy i jego samochodu, przebieg samochodu, numer kontenerów których zlecenie dotyczy, typ usługi, wagę, ładunek). 
+ 
+
+ 
+ 
+
+Zatwierdzający zlecenie ma obowiązek sprawdzić ładunek z kontenera czy jest zgodny z zakładanym oraz z ładunkiem z pozycji umowy. W przypadku niezgodności ładunku na przyjętym zleceniu musi przepiąć pozycję umowy, tak żeby zlecenie zostało prawidłowo zafakturowane (możliwe kilka pozycji na umowach z innymi ładunkami i stawkami). 
+Dodatkowo musi zweryfikować numer kontenera odebranego/ podstawionego (identyfikacja po numerach, docelowo kontenery mają być z chipami).  
+ 
+ 
+ 
+  
+ 
+
+Moduł kontenery:  
+ 
+
+W module są wymienione wszystkie kontenery należące do BYŚ. Nadawane są tutaj ich numery, nazwy oraz ogólne informacje. Możliwość usunięcia kontenera, modyfikacji numeru itp.  
+Możliwość sprawdzenia dla jakiego kontrahenta i pod jaki adres został podstawiony dany nr kontenera. 
+ 
+Konieczna informacja o pełnej historii zleceń dla tego kontenera. 
+  
+ 
+
+ 
+
+Lista aktualnych zleceń cyklicznych dla kontenerów- wygenerowanych na podstawienie wprowadzonych do umów cykli.  
+ 
+Połączenie faktur na zleceniach jednorazowych 
+ 
+
+Konieczne do miesięcznego fakturowania- łączy faktury na zleceniu podstawienia z polem fakturowania przy odbiorze.  
+ Przy zleceniach jednorazowych zasadą jest fakturowanie podstawienia- fakturowanie kontenera z takiego zlecenia z automatu ustawia się na fakturować ‘nie’. Użytkownik ma możliwość zdecydowania o fakturowaniu takiego zlecenia po odbiorze kontenera- musi ręcznie ustawić wtedy pole fakturować „tak” przy odbiorze.  
+Zlecenia podpięte do umowy fakturowane są z odbiorów zwykle na koniec miesiąca. Przy wprowadzeniu podstawienia zlecenia z umowy, przy odbiorze ustawione jest fakturować „tak”.  
+Konieczne wprowadzenie znacznika fakturować przy odbiorze w momencie wprowadzania zlecenia podstawienia jednorazowego- wtedy z automatu powinno zostać wprowadzone fakturować „tak” przy odbiorze.  
+ 
+
+Przy łączeniu faktur automatycznie ustawia się aktualny rok i aktualny miesiąc, łączą się faktury z miesiąca bieżącego i miesiąca wstecz. 
+ 
+  
+Przypisz drukarkę 
+  
+
+Obraz zawierający tekst, paragon, zrzut ekranu
+
+Opis wygenerowany automatycznie
+Dotyczy przypisywania drukarek dla dyspozytorów. Drukarki służą do drukowania zleceń dla kierowców. Uwaga- należy sprawdzić wytyczne techniczne dla tych drukarek.  
+Wydruki z tych drukarek na papierze o ustalonej wielkości, drukują się pola wybrane pola ze zlecenia. Konieczna możliwość dowolnego wyboru pól, które mają drukować się na zleceniach.  
+8.3 Moduł Śmieciarki 
+ŚMIECIARKI- OBSŁUGA TRAS 
+ 
+
+ 
+
+Lista tras wskazuje wszystkie informacje o realizowanych trasach śmieciarek, z możliwością sortowania po każdej kolumnie. 
+Dane: 
+- ID trasy 
+
+- Status (zatwierdzona, wydrukowana) 
+
+- Data transportu 
+
+- Kod odpadu 
+
+- ID trasy, nazwa samochodu, nr rejestracyjny 
+
+
+- Zużycie paliwa, przebieg od-do, waga wyładunku 
+
+
+
+
+Obraz zawierający tekst
+
+Opis wygenerowany automatycznie
+
+
+
+
+
+
+
+8.4 Moduł – zarządzanie danymi: 
+
+
+
+
+
+Możliwość wygenerowania i wydrukowania trasówek na dany dzień dla kierowców, oraz możliwość wygenerowania i wydrukowania potwierdzeń realizacji usługi dla wszystkich klientów na cały miesiąc.  
+Utwórz trasę 
+ 
+Moduł umożliwiający tworzenie trasówek- do wskazania data trasówki, Opis kodów odpadów, identyfikator trasy, dane samochodu i kierowców. Wskazanie daty wygenerowania KPO dla klientów, którzy mają API do zleceń z danej trasówki.  
+Wydrukowanie trasówki powoduje wysłanie zleceń na tablet – opisane w odrębnym dziale. 
+Konieczne stworzenie generowania KPOK dla wszystkich gmin znajdujących się w danej trasówce. 
+ 
+Moduł umożliwiający zatwierdzanie trasówek.  
+Po wyborze wybranej trasówki użytkownik widzi listę zleceń z informacjami, które uzupełnił na tablecie kierowca – ilość, notatka, czas wykonania. Ma możliwość wprowadzenia/ modyfikacji ręcznej ilości odebranych pojemników oraz uwag.  
+System wskazuje ilości zaplanowane do zrealizowania z umowy, ilości faktycznie zrealizowane oraz ilości do zafakturowania (pola automatycznie wypełniane przez system w zależności od ustawionego w umowie sposobu rozliczania). Pola te widoczne są w module zatwierdzania oraz potem są widoczne w zleceniu zatwierdzonym. 
+W zależności od sposobu rozliczania klienta (ilości z umowy lub faktyczne) dane przechodzą do generatora faktur. Użytkownik zatwierdzający ma możliwość wpisania uwagi kierowcy po realizacji zlecenia. 
+ 
+  
+ 
+Protokoły podstawienia i odbioru pojemników 
+ 
+ 
+Lista protokołów podstawień i odbiorów wygenerowanych z poziomu umowy.  
+Konieczne dodanie możliwości ręcznego dodania protokołu podstawienia/odbioru lub wymiany pojemników. 
+ 
+ 
+  
+Zatwierdzanie protokołów 
+ 
+Pełna lista wszystkich protokołów odbioru lub podstawień pojemników – ze wskazaniem ich statusów.  
+ 
+W tym module zatwierdzane są protokoły. 
+Po wybraniu konkretnego protokołu jest możliwość zatwierdzenia go- system generuje automatyczne przesunięcie magazynowe w SAP.  
+Przy zatwierdzaniu protokołów odbioru pojemników istotna jest jednoczesna możliwość wprowadzenia od razu do zlecenia odbioru informacji czy zlecenia ma być zafakturowane na klienta (w przypadku gdy odbierany pojemnik jest pusty lub pełny).  
+Możliwość dodania protokołu wymiany pojemnika z informacją dlaczego zostaje wymieniony (uszkodzony/w ramach dezynfekcji). 
+Możliwość anulowania protokołu (klient rezygnuje z usługi). 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Moduł odrębnie opisany i omówiony przez dział dyspozytorów.  
+Moduł Profile 
+ 
+ 
+ 
+ 
+Każdy użytkownik ma możliwość ustawienia własnego profilu- widoku zleceń, rejestru zleceń, umowy itp. 
+Profile mogą być zapisane jako globalne lub lokalne. Administrator ma możliwość usunięcia profili innych użytkowników.  
+ 
+ 
+Moduły podsumowujące kontrahentów, ich lokalizacje, pozycje umów itp. 
+ 
+  
+ 
+
+ 
+ 
+
+Excel, PDF: umożliwia eksport danych z każdego modułu w BOK do excel lub pdf. 
+Konieczność eksportu danych o dokładnie takim samym wyglądzie jak ustawiony w BOK- np. szerokości kolumn, kolory itp.  
+ 
+ 
+
+Dodaj, Lista: umożliwia dodanie i przeglądanie załączników do umów.  
+ 
+  
+ 
+
+ 
+
+Słowniki: możliwość dodawania opisów w słownikach BOK – edytowane przez uprawionego użytkownika. 
+ 
+
+Tworzenie F-VAT- moduł omówiony w punkcie 9  
+9. GENERATOR FAKTUR 
+
+
+Generator faktur pozwala na tworzenie grupowe faktur w ustalonych okresach- miesięcznych lub co kwartał. 
+Istnieje możliwość wygenerowania faktur zbiorczych również w ciągu miesiąca.  
+ 
+
+ 
+
+ 
+
+Podstawowe wytyczne: 
+- W generatorze pojawiają się zlecenia zatwierdzone, ze statusem fakturować tak. 
+
+- Zlecenia można grupować według wielu kryteriów: 
+
+• grupa partnera handlowego (klienci podzieleni są na różne grupy- głównym parametrem jest sposób fakturowania, np. grupa do 300 jest grupą fakturowaną automatycznie, co jeden miesiąc. W tej grupie nie powinni znaleźć się klienci, którzy mają w umowach kontenery z dzierżawą lub inne skomplikowane usługi. Faktury są wystawiane bez wglądu w treść faktury przez osobę wystawiającą). 
+
+• efaktury lub faktury drukowane 
+
+• faktury z potwierdzeniami wykonania usług lub bez. 
+
+
+ 
+- Ustawienie daty wystawienia faktury oraz okresu fakturowania jest ręczne – data wystawienia faktury może być dowolna, okres od – do fakturowania również. Po ustawieniu tych dat w generatorze widoczne są faktury tylko z ustawionego okresu.  
+
+- Po wystawieniu faktury z generatora faktura „przypina” się do danego zlecenia lub grupy zleceń oraz znika z generatora. 
+
+- Możliwość utworzenia faktury tymczasowej- wygenerowania wstępnej faktury z generatora oraz jej ręcznej modyfikacji przed dodaniem/ zatwierdzeniem w sap. (Dodaną fakturę należy potem ręcznie wysłać lub wydrukować). 
+
+- Możliwość zaznaczenia i odznaczenia wielu faktur do generowania, możliwość zaznaczenia tylko wybranych faktury do wygenerowania również w ramach jednego kontrahenta.  
+
+- Jeśli przy danej umowie wprowadzone zostały uwagi do fakturowania powinny one pojawić się przed wystawieniem faktury. Po zapoznaniu się z uwagą osoba wystawiająca fakturę musi potwierdzić czy chce tę fakturę wystawić. Użytkownik powinien mieć możliwość wybrania opcji wystawienia faktur z uwagami na końcu.  
+
+-  W przypadku faktur drukowanych uwaga do fakturowania powinna pojawić się przed wystawieniem faktury oraz wydrukować razem z fakturą. Kolejność wystawiania się faktur: faktury z umów, faktury ze zleceń.  
+
+- Możliwość przefiltrowania wszystkich zleceń w czasie fakturowania (zaktualizowanie zleceń z umowami oraz zaktualizowanie listy faktur do wystawienia- fakturowanie kilku osób naraz) 
+
+- Dla danego klienta faktury wystawiają zgodnie z ustawieniami w umowie np. część faktur jest zgrupowana według lokalizacji. Faktury na zleceniach jednorazowych wystawiane są na osobnych fakturach, powinny być wystawiane jako ostatnie (uniknięcie zafakturowania najpierw zleceń jednorazowych, a potem umowy przy której są istotne uwagi do fakturowania dla klienta). 
+
+
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+W czasie wystawiania faktur w generatorze, użytkownik ma możliwość wglądu do wszystkich zleceń wyszczególnionych na fakturze, przejścia bezpośrednio do fakturowanego zlecenia, do umowy oraz do BDO (potwierdzenie stawki na fakturze vs. umowa vs. odebrany ładunek). 
+ 
+Integralną częścią fakturowania miesięcznego z generatora jest raport do fakturowania. Jest to plik excel- hurtownia danych z bazy. Odświeżana przed fakturowaniem, wskazuje wszystkie zlecenia dla klientów w ciągu całego miesiąca w tym zlecenie nie wchodzące do generatora (np. podstawienia). Użytkownik ma możliwość zweryfikowania ilości i rodzajów zleceń do zafakturowania.  
+ 
+
+Przed każdym fakturowaniem osoba wyznaczona musi sprawdzić następujące dane w systemie:  
+- zatwierdzenie wszystkich zleceń w miesiącu, 
+- formy płatności na zleceniach- w szczególnosci przy usłudze HDS i śmieciarkach z umowy- czy nie ma płatności gotówką, 
+- zlecenia śmieciarki- czy reklamacje mają status fakturować: nie, czy podjazdy odwołane przez klienta nie będą zafakturowane, 
+- czy w grupie fakturowanej automatycznie nie pojawiają się usługi które powinny być zweryfikowane: odbiory odpadów niebezpiecznych, odbiory dokumentów do niszczenia, 
+- zatwierdzenie protokołów odbioru pełnych pojemników. 
+ 
+Przed rozpoczęciem fakturowania konieczne jest połączenie faktur jednorazowych ze zleceń podstawień do zleceń odbioru.  
+ 
+Uwagi dodatkowe: 
+- Po zafakturowaniu istotne jest stworzenie raportu zleceń niezafakturowanych – do zweryfikowania czy cokolwiek nie zostało pominięte w fakturowaniu.  
+
+- Istotne jest ustawienie limitu kwoty do fakturowania- obecnie mamy ustawioną kwotę limitu na 100.000 zł. (w sap i BOK).  
+
+- W związku z podziałem klientów na grupy fakturowania- wskazanie grupy partnera handlowego- konieczna możliwość swobodnej zmiany nazwy grupy dla wszystkich klientów oraz możliwość zmiany grupy dla wielu klientów jednocześnie.  
+
+
+ 
+ 
+  
+  
+10. WYSYŁKA E-FAKTUR 
+
+
+Podstawowe założenia: 
+- Faktury wystawiane przez BYŚ są wysyłane obecnie do klientów w formie linku lub pdf – sposób wysyłki wprowadzony w bok w karcie kontrahenta. 
+
+-  Sposób wysyłki faktur musi spełniać wymagania najczęściej spotykanych na rynku programów automatycznych przyjmujących faktury.  
+
+- System umożliwia ustawienie własnego tematu wiadomości, rodzaju wysyłki faktury (link lub mail), maksymalnego rozmiaru maila, zdefiniować format wysyłanej wiadomości (modyfikacja samodzielna przez uprawionego użytkownika). 
+
+- System powinien umożliwić wprowadzenie dodatkowych tekstów np. w tytule wiadomości z fakturą dla wybranych klientów. 
+
+- System powinien umożliwić korzystanie z Platformy Elektronicznego Fakturowania (PEF) wykorzystywanego przez jednostki budżetowe. 
+
+- System umożliwi wysyłkę faktur na ten sam adres mailowy dla kilku (nieograniczona ilość) kontrahentów w BOK. 
+
+- Możliwość ustawienia kilku (nieograniczona ilość) adresów email na jednym kontrahencie- wysyłka faktur w ramach kilku umów na różne adresy mailowe. 
+
+- W ramach jednego systemu uprawnieni użytkownicy mają możliwość sprawdzenia statusu faktury- czy i kiedy została wysłana, dotarła do klienta, została odczytana.  
+
+- Uprawnieni użytkownicy mają możliwość samodzielnej edycji adresów, weryfikacji kont użytkowników, aktywacji ich kont. 
+
+- Konto klienta zakładane jest w momencie wprowadzenia adresu do efaktury w bok oraz po wybraniu odpowiedniej opcji na karcie kontrahenta. 
+
+- Nie wszyscy kontrahenci muszą mieć dostęp do eBOK- wskazanie wyboru na karcie kontrahenta. 1. Dokumenty Finansowe (faktura, faktura korekta, duplikat faktury) dane w pliku PDF łącznie z XML 
+
+2. Dokumenty Pozafinansowe:  - Mail z treścią wyłącznie o Dokumencie Finansowym (funkcja powtórnej wysyłki faktur nie pobranych z linków) 
+
+- Mail z treścią o Dokumencie Finansowym 
+
+- Mail z treścią o Dokumencie Finansowym i Potwierdzeniem Wykonania Usługi (Wywozu Odpadów) 
+
+- Mail z treścią o Dokumencie Finansowym oraz Potwierdzeniem Wykonania Usługi (Wywozu Odpadów) 
+
+- Wezwanie do zapłaty nr 1 tzw. pierwsza dystrybucja – Mail z treścią do Odbiorców posiadających e-zgodę. 
+
+- Wezwanie do zapłaty nr 1 tzw. pierwsza dystrybucja – Mail z treścią do Odbiorców nie posiadających e-zgody. 
+
+- Wezwanie do zapłaty nr 2 tzw. druga dystrybucja – Mail z treścią oraz link do pobrania PDF Wezwania do Zapłaty dla Odbiorców posiadających e-zgodę. 
+
+- Wezwanie do zapłaty nr 2 tzw. druga dystrybucja – Mail z treścią dla Odbiorców nie posiadających e-zgody. 
+
+
+
+
+1.1.  Strona startowa 1. Informacja o łącznej kwocie pozostałej do zapłaty – dane pochodzą z transakcji nierozliczonych. 
+
+2. Ostatnie dokumenty finansowe – dokumenty niepobrane z bieżącego miesiąca. 
+
+3. Wiadomości – wysłane przez Klienta z poziomu PA, widoczne dane: • Data wiadomości 
+
+• Tytuł 
+
+• Treść (fragment wiadomości) 
+
+• Pokaż szczegóły (pełna treść wiadomości) 
+
+• Usuwanie wiadomości 
+
+
+
+
+
+
+
+1.2.  Zakładka „Faktury”  1. Prezentacja nowych i historycznych dokumentów finansowych (faktur, korekt, duplikatów) – dane pochodzą z pliku XML dokumentów finansowych, widoczne dane: • Numer dokumentu 
+
+• Typ dokumentu 
+
+• Pobrany 
+
+• Data wystawienia 
+
+• Termin płatności 
+
+• Kwota netto 
+
+• Kwota brutto 
+
+• Waluta 
+
+• Pobierz dokument w PDF 
+
+• Pobierz zbiorczo wyfiltrowane dokumenty w PDF, np. w ZIP 
+
+
+
+
+2. Wyszukiwanie dokumentów finansowych po: • Data od/do 
+
+• Numer dokumentu 
+
+• Typu dokumentu 
+
+• Nowy (niepobrany) / wszystkie 
+
+
+
+
+3. Sortowanie dokumentów po widocznych danych.  
+
+4. Wyświetlanie informacji po wejściu w szczegóły dokumentu: 1.2.4.1. Dane podstawowe:  
+
+• Numer dokumentu 
+
+• Typ dokumentu 
+
+• Data pierwszego pobrania 
+
+• Data ostatniego pobrania 
+
+1.2.4.2. Dane Klienta: 
+
+• NIP 
+
+• Nazwa 
+
+• Adres 
+
+• Kod pocztowy 
+
+• Miasto 
+
+1.2.4.3. Dane Faktury: 
+
+• Numer umowy 
+
+• Data wystawienia 
+
+• Data sprzedaży 
+
+• Termin płatności 
+
+• Kwota netto 
+
+• Kwota brutto 
+
+• Waluta 
+
+• Pobierz dokument w PDF 
+
+1.2.4.4. Wyświetlanie dokumentów powiązanych z fakturą (Potwierdzenie Wykonania Usługi/ Wywozu Odpadów, Zestawienie Odbioru Odpadów), które pochodzą z tego samego miesiąca co faktura – widoczne dane: 
+
+• Data dokumentu 
+
+• Typ dokumentu 
+
+• Link do zakładki dokumentu – po wejściu do zakładki wyświetlamy dokumenty z tego samego miesiąca co faktura (ustawiamy automatycznie filtr) 
+
+
+
+
+
+
+
+1.3.  Zakładka „Do zapłaty” 1. Sekcja nr 1 „Transakcje nierozliczone (Salda)” – dane pochodzą z pliku XML dotyczącym Transakcji nierozliczonych, widoczne dane: 
+
+2. Sekcja nr 2 „Wezwania do zapłaty” – dane pochodzą z wezwań do zapłaty nr 2 czyli z pliku PDF łącznie z XML, widoczne dane: 
+
+
+
+
+
+
+
+
+ 
+Dokumenty wysyłane do klientów oprócz faktur (możliwość zaznaczenia kilku lub wszystkich u klienta): 
+- codzienna aktualizacja salda finansowego klienta, 
+- miesięczne zestawienia zrealizowanych usług, wysyłane do klientów po wystawieniu faktury, 
+- harmonogram realizowanych usług, aktualizowany codziennie, 
+- wysyłka różnych wiadomości do klientów- tzw akcji jednorazowych- w formie maila lub jako wiadomość umieszczona na platformie eBOK.  
+- potwierdzenia realizacji usług skanowane z formy papierowej lub potwierdzone przez klientów w aplikacji tabletowej. 
+ 
+  
+Dokumenty wysyłane do klientów przez portal: 
+- - Zestawienie Odbioru Odpadów - dane w pliku XML (bez PDF), (informacje przesyłane raz w miesiącu)- najpóźniej następny dzień roboczy po wystawieniu miesięcznej faktury 
+
+- Potwierdzenie Wykonania Usługi (Wywozu Odpadów) – dane w pliku PDF (bez XML) z ustaloną nazwą, umożliwiającą powiązanie dokumentu z Odbiorcą (informacje przesyłane raz w miesiącu) 
+
+- Terminarz wywozu (harmonogram) do umowy zawartej pomiędzy Klientem a jego kontrahentem - dane w pliku XML (informacja przekazywana klika razy w roku). Mogą się zdarzyć przypadki gdzie jest kilka harmonogramów dla jednego Klienta ponieważ ma on kilka umów. 
+
+- Informacje o Transakcjach Nierozliczonych (Salda) - dane w pliku XML (informacje udostępniane raz dziennie w Dni Robocze)  
+
+- Wezwanie do Zapłaty nr 1 – dane w pliku XML (informacje przekazywane kilka razy w miesiącu) 
+
+- Wezwanie do Zapłaty nr 2 – dane w pliku PDF łącznie z XML (informacje przekazywane kilka razy w miesiącu) 
+
+- Wezwanie Ostateczne Do Zapłaty - plik w formacie PDF będzie zamieszczany przez Klienta w PA. Plik ten będzie załączany nieregularnie, o czym będzie decydował Klient. 
+
+
+ 
+Informacje wychodzące do klientów: 
+ 
+Linki do Dokumentów Finansowych oraz Dokumentów Pozafinansowych, będą miały ważność 3 miesięcy od daty ich wysłania. 
+eBOK powinien zawierać następujące funkcjonalności: 
+ 
+ 
+• Lp.  
+
+• Nr dokumentu 
+
+• Data dokumentu 
+
+• Termin płatności 
+
+• Kwota faktury 
+
+• Kwota pozostała 
+
+• Podsumowanie: Saldo na dzień (data z XML minus 1 dzień) 
+
+• Podsumowanie: Łączna kwota pozostała do zapłaty 
+
+• Lp. 
+
+• Nr dokumentu 
+
+• Data dokumentu 
+
+• Termin płatności 
+
+• Kwota faktury 
+
+
+• Kwota pozostała 
+
+• Możliwość pobrania pliku PDF z „Wezwaniem do zapłaty nr 2” 
+
+• Czas prezentacji Wezwania do Zapłaty będzie zależny od informacji o „Transakcjach nierozliczonych (Sald)” 
+
+• Widoczne będą tylko wezwania pochodzące z dystrybucji nr 2 – informacja w pliku XML. 3. Sekcja nr 3 „Wezwanie Ostateczne do Zapłaty” – dane pochodzą z Panelu Administracyjnego, w którym to będzie możliwość umieszczania ręcznie przez pracownika Klienta pliku PDF. W eBOK będzie możliwość pobrania pliku PDF z „Wezwaniem ostatecznym do zapłaty”. Wyłączanie widoczności wezwań będzie odbywało się ręcznie przez pracownika Klienta w Panelu Administracyjnym. 
+
+1.4.  Zakładka „ Zestawienia odbioru opadów”  1. Prezentacja zestawienia odbioru odpadów – dane pochodzą z pliku XML, widoczne dane: 
+
+2. Wyszukiwanie dokumentów po: • Data realizacji od/do 
+
+• Miasto/Adres 
+
+• Pojemnik 
+
+
+
+
+3. Sortowanie dokumentów po widocznych danych. 
+
+
+
+
+1.5.  Zakładka „Harmonogramy odbioru odpadów” 1. Prezentacja harmonogramów odbioru odpadów – osobne zestawienia dla każdej umowy, dane pochodzą z pliku XML, widoczne dane: 
+
+2. Wyszukiwanie dokumentów po: • Typ pojemnika 
+
+• Adres/Numer posesji/Miejscowość 
+
+
+
+
+3. Sortowanie dokumentów po widocznych danych. 
+
+
+
+
+1.6.  Zakładka „Potwierdzenia wywozu odpadu” 1. Prezentacja potwierdzeń wywozu odpadu, dane pochodzą z pliku XML, widoczne dane: 
+
+2. Wyszukiwanie dokumentów po: • Data od/do 
+
+
+
+
+3. Sortowanie dokumentów po widocznych danych. 
+
+
+
+
+1.7.  Zakładka „Dokumenty dodatkowe” 1. Prezentacja dokumentów dodatkowych, dane pochodzą z Panelu Administracyjnego, w którym to będzie możliwość umieszczania ręcznie przez pracownika Klienta pliku PDF, widoczne dane: 
+
+2. Wyszukiwanie dokumentów po: • Data od/do 
+
+• Nazwa dokumentu 
+
+
+
+
+3. Sortowanie dokumentów po widocznych danych. 
+
+
+
+
+1.8.  Zakładka „Regulamin” 1. treść widoczna w zakładce będzie edytowana w PA przez Klienta 
+
+
+
+
+1.9. Zakładka „FAQ” – najczęściej zadawane pytania i odpowiedzi związane z obsługą Dokumentów Elektronicznych oraz użytkowania – BOK 1. treść widoczna w zakładce będzie edytowana w PA przez Klienta 
+
+
+
+
+1.10. Zakładka „Profil” 1. Dane podstawowe (Login, Hasło) 
+
+2. Ustawienia wysyłki mailowej (Email, Email CC, Identyfikator Klienta) 
+
+
+
+
+1.11. Zakładka „Wiadomości” 1. wysłane przez Klienta z poziomu PA, widoczne dane: 
+
+
+
+
+
+
+
+
+ 
+• Lp. 
+
+• Data realizacji 
+
+• Miasto 
+
+• Adres 
+
+• Pojemnik 
+
+• Ilość 
+
+• Pobierz zestawienie w PDF 
+
+• Pobierz zestawienie w XLS 
+
+
+ 
+ 
+ 
+• Nr umowy 
+
+• Termin wywozu 
+
+• Adres 
+
+• Numer posesji 
+
+• Miejscowość 
+
+• Typ pojemnika 
+
+• Pobierz zestawienie w PDF 
+
+• Pobierz zestawienie w XLS  
+
+
+ 
+ 
+• Lp. 
+
+• Data dokumentu 
+
+• Pobierz dokument w PDF 
+
+
+ 
+• Lp. 
+
+• Nazwa dokumentu 
+
+• Kategoria dokumentu 
+
+• Data dodania 
+
+• Pobierz dokument w PDF 
+
+
+ 
+ 
+ 
+ 
+• Data wiadomości 
+
+• Tytuł 
+
+• Treść (fragment wiadomości) 
+
+• Pokaż szczegóły (pełna treść wiadomości) 
+
+
+• Usuwanie wiadomości 
+
+
+ 
+11. RAPORTOWANIE Z SYSTEMU 
+
+
+Na podstawie danych z systemu użytkownicy mają możliwość wygenerowania raportów z bazy danych. Przykładowe raporty: 
+- Raport kończących się umów z wyborem, grupy, lub podgrupy (zbieranie danych z posesji oraz z pola obowiązywania umowy) z podziałem na grupy np. prywatni, przetargi; 
+
+- Raport z ilości przyjętych zleceń przez pracowników (z podziałem na zlecenia z umowy i zlecenia jednorazowe), ilości wprowadzonych umów; 
+
+- Raport niezafakturowanych zleceń; 
+
+- Raport dla gmin o rozpoczętych i zakończonych umowach; 
+
+- Raport z podpisanych umów; 
+
+- Raport z przygotowanych ofert; 
+
+- Raportowanie dla śmieciarek – efektywność, ilość obsługiwanych posesji, rodzajem pojemników, obrót; 
+
+- Tworzenie własnych raportów z bazy danych; 
+
+
+ 
+ 
+UWAGI KOŃCOWE: 
+• Każdy użytkownik powinien mieć możliwość pracy na jednocześnie kilku różnych oknach systemu- jest to bardzo ważna funkcjonalność.  Akceptujemy założenie limitu okien pracy dla każdego użytkownika (minimum 3 okna + ewentualne dodatkowe okna funkcyjne). 
+
+• W każdym module powinna być możliwość odtworzenia historii zmian- na karcie kontrahenta, zlecenia, umowy, BDO. W historii istotne jest wskazanie daty zmiany, zakresu oraz użytkownika wprowadzającego zmianę- oraz porównanie wprowadzonych zmian 
+
+• System powinien mieć możliwość wysyłki informacji masowych do klientów- np. o przesunięciach związanych z harmonogramami, różnych informacji. Wysyłka powinna być możliwa do wszystkich lub ustalonych grup klientów- aktywnych lub nie.  
+
+• System powinien mieć możliwość współpracy z centralą telefoniczną- pomagać identyfikować dzwoniących klientów, w miarę możliwości technicznych otwierać kartę dzwoniącego klienta.  
+
+
+ 
+12. TYPY UMÓW - Opróżnienie pojemników- rozliczenie w sztukach 
+
+- Opróżnienie pojemników- rozliczenie w m3  
+
+- Opróżnienie pojemników- rozliczenie na Mg (usługa HDS) 
+
+- Ryczałt miesięczny  
+
+- Kontener - rozliczenie w sztukach 
+
+- Kontener- rozliczenie w sztukach + nadtonaż + dzierżawa  
+
+- Kontener – rozliczenie w m3 
+
+- Kontener – rozliczenie w Mg 
+
+- Kontener – rozliczenie w Mg+ usługa transportowa + dzierżawa (prasokontener) 
+
+- Kontener – umowa na strefy 
+
+- Kontener – umowa na strefy, w zależności od rodzaju ładunku inna stawka + dzierżawa na kontener 
+
+- HDS- nieczystości płynne- rozliczenie w m3 odpadów płynnych przy założonym minimum logistycznym 
+
+- HDS- wynajem / opróżnienie kabiny WC  
+
+- HDS- odbiory odpadów nietypowych/niebezpiecznych- rozliczenie w klientem w kilogramach, założone minimum logistyczne za odbiór odpadów 
+
+- HDS- wynajem + dostawa skrzynki na piasek 
+
+- Akcja zima- odśnieżanie – rozliczenie w roboczogodzinach pracy 
+
+
+
+
+
+ 
+ 
+  
+13. DZIAŁANIA NA REJESTRZE ZLECEŃ I USŁUG 
+
+
+ 
+• Na rejestrze zleceń i usług pracownicy BOK widzą wszystkie zlecenia dla klienta- we wszystkich statusach. Każdy pracownik może ustawić widok wszystkich zleceń- i posortować je według własnych potrzeb. Konieczne jest założeniu filtru widoku zleceń- aby pracownik widział tylko bieżące zlecenia (np. z jednego tygodnia). 
+
+• Zlecenia na odbiory jednorazowe kontenerów mogą być przesunięte o dowolną ilość dni lub przesunięte z dopłatą. Przy takim działaniu pracownik BOK przesuwa zlecenie na termin na 7 dniowy, system jednocześnie generuje zlecenie „dopłata za przesunięcie kontenera”- zlecenie to ma status zatwierdzony z ustaloną kwotą za przesunięcie (ilość dni o które przesuwamy zlecenie oraz kwota powinna być dowolnie modyfikowana w BOK). 
+
+
+ 
+
+• Zmiana statusów zleceń przydzielonych może być zrobiona tylko i wyłącznie przez osoby uprawione.  
+
+• Konieczna jest możliwość przesunięcia zleceń pomiędzy kontrahentami.  
+
+• Każdy pracownik ma możliwość wystawienia faktury ze zlecenia np. jednorazowego:  
+
+
+ 
+Obraz zawierający tekst
+
+Opis wygenerowany automatycznie
+ 
+  
+
+14. PRZYGOTOWANIE I WYSYŁKA ANEKSÓW PODWYŻSZAJĄCYCH STAWKI Z UMÓW 
+
+
+System powinien dawać możliwość przygotowania do wysyłki aneksów do umów dla klientów po podaniu przez użytkownika minimalnej stawki za realizowane usługi. System powinien analizować umowy pod kątem rozbieżności z ustalonym cennikiem.  
+Istotne jest wprowadzanie jak największej automatyzacji procesu przygotowania i wysyłki aneksów. Dodatkowo konieczna jest możliwość alertu dla użytkowników od braku akceptacji aneksów, wprowadzenie blokady usług. W przypadku akceptacji aneksu system powinien dawać możliwość wstępnego wprowadzenia aneksu do systemu.  
+ 
+15. MODUŁ WINDYKACYJNY 
+
+
+Obecnie windykacja polubowna prowadzona jest poza systemem operacyjnym, tj. monity w formie e-mail są wysyłane z autorskiego narzędzia opartego na MS Excel, monity w formie SMS wysyłane są z zewnętrznej bramki operatora telekomunikacyjnego Plus, a pisma są generowane w MS Word. Pracownik Działu Windykacji przygotowuje zestawienia w formacie .xls, którymi ładuje dane do wysyłek. 
+Wszyscy klienci podzieleni są na grupy windykacyjne: klient zwykły, klient kluczowy, budowy, zagospodarowanie, surowce, duży przetarg, mały przetarg, VIP. Każda grupa windykacyjna ma swoją oddzielną ścieżkę windykacyjną.  
+Etapy/poziomy windykacji:  
+• monitoring płatności,  
+
+• windykacja polubowna (WDZ zwykłe),  
+
+• WDZ przed blokadą usług,  
+
+• blokada usług, 
+
+• WDZ przed rozwiązaniem umowy, 
+
+• rozwiązanie umowy, 
+
+• ostateczne WDZ, 
+
+• postępowanie sądowe, 
+
+• postępowanie egzekucyjne, 
+
+• upadłość, 
+
+
+• restrukturyzacja. 
+
+
+ 
+O przypisaniu klienta do danego poziomu/etapu windykacji decydują następujące kryteria: 
+- termin płatności najstarszej wymagalnej faktury i upływ okresu od tego terminu (DPD), 
+- saldo płatności klienta, 
+- data ostatniej wpłaty klienta, 
+- aktywność umowy, 
+- aktywność ugody, 
+- rozpatrywanie reklamacji, 
+- upadłość/restrukturyzacja. 
+W bazie kontaktów istnieją checkbox’y umożliwiające przypisanie danego numeru telefonu lub adresu e-mail do kampanii wysyłkowej. Nie wszystkie numery telefonów i adresy e-mail znajdujące się w bazie możemy wykorzystać w ramach kampanii wysyłkowych. 
+Windykacja prawna jest prowadzona poza systemem operacyjnym, a dane dotyczące postępowań sądowo-egzekucyjnych, upadłościowych i restrukturyzacyjnych są przechowywane w zestawieniu .xlsx. Korespondencja wychodzącą jest przygotowywana w MS Word i podpinana do systemu SAP. Korespondencja przychodząca jest skanowana i podpinana do systemu SAP. 
+ 
+Funkcjonalności optymalizujące pracę Działu Windykacji planowane do wdrożenia: 
+- narzędzie do monitorowania spłacalności zawartych ugód z możliwością wpisywania ustalonych dat płatności w kalendarzu, 
+- automatyczne zakładanie blokady usług wraz z powiadomieniem klienta o założeniu i zdjęciu blokady w formie e-mail i SMS, 
+- możliwość wprowadzania do systemu daty odbioru faktury przez klienta, od której liczony jest określony termin zapłaty (tj. 7, 14, 30, 60 dni) wraz z rzeczywistym terminem płatności danej faktury, 
+- wprowadzenie kampanii VMS (wiadomości głosowe), 
+- dokonywanie wpisów o zadłużeniu w biurze informacji gospodarczych, 
+- wystawianie not obciążeniowych, w tym noty za koszty windykacji zgodnie z ustawą o przeciwdziałaniu nadmiernym opóźnieniom w transakcjach handlowych, 
+- wystawianie not odsetkowych – powiązane z koniecznością utworzenia salda klienta obejmującego naliczone odsetki za opóźnienie (różne rodzaje odsetek, które będą się przypisywały do konta klienta w zależności od formy organizacyjno-prawnej), koszty procesu, koszty zastępstwa prawnego, koszty egzekucyjne, koszty inne, 
+- utworzenie generatora pism z szablonami dokumentów, 
+- utworzenie generatora pozwów w elektronicznym postępowaniu upominawczym (EPU) – link: https://www.e-sad.gov.pl, 
+- utworzenie bazy postępowań sądowo-egzekucyjnych w kartotece klienta z informacją o wszczęciu, aktualnym statusie, sygnaturze i organie prowadzącym dane postępowanie. 
+ 
+16. ZAMÓWIENIA ZE STRONY INTERNETOWEJ 
+
+
+Funkcjonalność na stronie internetowej: 
+• zapytania o usługi cykliczne (odbiory odpadów śmieciarkami) 
+
+• zamówienia jednorazowe kontenerów. 
+
+
+Strona internetowa ma zaszyte cenniki dla obu tych usług. Na ich podstawie wyliczane są stawki usług firmy BYŚ, klienci otrzymują ofertę na odbiór odpadów lub mają możliwość złożenia zamówienia przez naszą stronę. Przy zamówieniu jednorazowym kontenera klient ma możliwość zapłacenia online za usługę szybkim przelewem lub wybrania płatności gotówką u kierowcy.  
+Biuro obsługi klienta otrzymuje mailem powiadomienie o wpłynięciu zapytania ofertowego i zamówienia kontenera.  
+Usługa cykliczna: 
+ 
+Obraz zawierający tekst
+
+Opis wygenerowany automatycznie
+Zamówienia jednorazowe: 
+ 
+ 
+ 
+Obraz zawierający tekst
+
+Opis wygenerowany automatycznie
+ 
+ 
+Obraz zawierający tekst
+
+Opis wygenerowany automatycznie
+System współpracuje z zamówieniami ze strony internetowej, które trafiają bezpośrednio do systemu i umożliwiają dodanie nowego klienta i zlecenia jednym kliknięciem przenosząc automatycznie wszystkie dane wprowadzone przez klienta do zlecenia. W płatnościach dopina się również status płatności do zlecenia. 
+ 
+ 
+
+ 
+
+17. OFERTOWANIE 17.1 Oferta dla małego klienta (kilka pojemników w skali miesiąca) - oferta jest przygotowywana jako wiadomość email, ewidencjonowana w niezależnym programie. 
+
+17.2 Oferta dla średniego i dużego klienta- przygotowana w SAP, przesyłana do klienta mailem w formacie PDF.  
+
+17.3 Oferta dla firmy budowlanej – przygotowywana w SAP, przesyłana do klienta mailem w formacie PDF. 
+
+17.4 Oferta przetargowa- przygotowywana na druku klienta, wprowadzana do SAP na potrzeby archiwizacyjne. 
+
+
+
+
+
+W chwili obecnej ofertowanie jest przeprowadzane w SAP- w module szanse sprzedaży/oferty lub bezpośrednio przez pracowników jako mail do klienta. 
+Rodzaje ofert: 
+ 
+Funkcjonalności systemu w zakresie ofertowania: 
+- możliwość przygotowania ofert  
+- archiwizacja ofert 
+- stworzenie umowy na podstawie oferty – bezpośrednie przeniesienie danych klienta, cen, pojemników itd. 
+- ustawienie przypomnień w sprawie kontaktu z klientem (zmienna ilość dni dla ustawianych przypomnień) 
+- pełne raportowanie w sprawie złożonych ofert 
+- wprowadzanie danych o stawkach konkurencji oraz przygotowanie raportu 
+ 
+  
+18. RAPORTOWANIE Z SYSTEMU 
+
+
+Na postawie danych z systemu użytkownicy mają możliwość wygenerowania raportów z bazy danych. Przykładowe raporty: 
+- Raport kończących się umów z wyborem, grupy, lub podgrupy (zbieranie danych z posesji oraz z pola obowiązywania umowy) z podziałem na grupy np. prywatni, przetargi 
+
+- Raport niezafakturowanych zleceń 
+
+- Raport dla gmin o rozpoczętych i zakończonych umowach 
+
+- Raport z podpisanych umów 
+
+- Raport z przygotowanych ofert 
+
+- Raportowanie dla śmieciarek – efektywność, ilość obsługiwanych posesji, rodzajem pojemników, obrót 
+
+- Tworzenie własnych raportów z bazy danych 
+
+
+ 
+  
+19. KASA 
+
+1. Wystawianie faktur ze zlecenia jednorazowego (kontenery) 
+
+• Wyszukiwanie klienta  
+
+
+Kierowca, który otrzymał zlecenie gotówkowe lub przelewowe (informacja w zleceniu, że fakturę ma zabrać kierowca – niestety bardzo często jej brakuje) zgłasza się do kasy. Jego zlecenie możemy wyszukać w „panelu dyspozytorskim” (lista zleceń na dany dzień) po numerze zlecenia (1), adresie (2), nazwisku kierowcy (3).  
+ 
+
+Zlecenie może również wydrukować dyspozytor (umożliwia to od razu wyszukanie klienta po jego nr klienta). 
+W obu przypadkach musimy otworzyć kartę klienta i sprawdzić, czy zgadza się forma płatności, czy klient nie ma zaległych faktur/dopłat, czy nie została zawarta umowa, czy klient posiada zgodę na e-fakturę (widoczne również z pozycji zlecenia – czerwony napis obok osoby kontaktowej). 
+Weryfikujemy cenę (ceny do zleceń wpisywane są „ręcznie” skąd wynikają błędy) oraz ilość. W polu ilość ważne jest, aby była wpisana „1” – na fakturze liczy się ilość*cena.  
+Ilość – po wykonaniu zlecenia przez kierowcę w tym miejscu pojawia się waga odebranego odpadu. 
+Wygodne byłoby, gdyby rozdzielić na zleceniu ilość do fakturowania od wagi kontenera. Faktura mogłaby się drukować zależne od jednostki miary jaką wybierzemy. Np. jeśli wybieramy JM „szt.” – faktura liczy się z pola „ilość” a jeśli wybierzemy JM „Mg” faktura wystawia się z pola waga przyjętego odpadu.  
+ 
+
+Do zlecenia dodatkowo może zostać doliczona np. usługa transportowa, usługa załadunku odpadów. Taką informację widzimy w zakładce „usługi dodatkowe” 
+ 
+
+ 
+Po weryfikacji wszystkich danych możemy przejść do samego wystawienia faktury 
+ 
+Obraz zawierający tekst
+
+Opis wygenerowany automatycznie
+Generator faktur sprzedaży 
+W tym miejscu widzimy, wszystkie powiązane zlecenia dla jednego kontenera. 
+Możemy wystawić fakturę dla jednego zlecenia lub dla kilku po zakończeniu wynajmu kontenera (wymiany w okresie 1.12.-12.12).  
+ 
+
+ 
+Po kliknięciu „generuj fakturę” pojawia się nam jej podgląd. Ponownie weryfikujemy, czy zgadza się kwota.  
+
+Jeśli klient ma zgodę na e-fakturę klikamy „zatwierdź”, po czym z pozycji zlecenia otwieramy FV w SAP i wysyłamy na portal EBOK (przy FV gotówkowych kierowca zabiera kopię faktury i przywozi ją później z kasa). Status faktury zmienia się na wydrukowany po kilku? minutach. Zaraz po wysłaniu drukuję się kopia i oryginał FV. Status powinien zmieniać się od razu po wysłaniu.  
+Przy braku zgody na e-FV klikamy drukuj. Ważne, aby kliknąć „drukuj” w lewym dolnym rogu. Jeśli klikniemy „drukarkę” w lewym górnym rogu wydrukuje się FV tymczasowa. Nie możemy takiego dokumentu przekazać klientowi. Wydruk FV powinien być w jednym miejscu – zdarza się, że osoba, która rzadko wystawia FV myli przyciski.  
+Wystawiona FV automatycznie przypisuje się do zlecenia. Nie można wystawić dwóch faktur do jednego zlecenia. System to blokuje.  
+ 
+
+ 
+ 
+ 
+ 
+  
+2. Wystawianie faktury do zlecenia jednorazowego HDS (szambo) 
+
+
+W tym przypadku FV jest wystawiana po wykonaniu usługi (kiedy kierowca przywozi kasę). Związane jest to z minimalną wartością usługi. Nie możemy wystawić FV przed wykonaniem zlecenia, ponieważ nie wiemy, ile m3 nieczystości odbierze (klient nie zawsze jest w stanie to określić). Do 10m3 obowiązuje jedna stała kwota – „za kurs”, powyżej 10m3 cena to iloczyn m3*cena/1 m3. 
+Samo wystawienie FV wygląda tak jak w przypadku kontenerów. Koniecznie trzeba rozdzielić pola ilość m3 od ilości do FV. W tym momencie wystawiając FV za „kurs” musimy zmienić ilość odebranych nieczystości na 1, wystawić FV i z powrotem zmienić ilość na rzeczywiście odebrane m3 od klienta. Byłoby dobrze, gdyby np. system sam widział, że w przypadku odebrania 7m3 ma wystawić FV za „kurs” (tak jak w przypadku FV z umowy) – powinno być pole na minimalną wartość FV. 
+ 
+3. FV Korygujące / FKD 
+
+
+FV korygujące wystawiane są w przypadku pomyłki dotyczącej ilości/ ceny (uznanej reklamacji) Skorygowane mogą zostać jedynie pozycje, które pojawiły się na pierwotnej FV – nie możemy dopisać dzierżawy pojemnika w przypadku skorygowania ilości podjazdów. Musi zostać wygenerowana nowa faktura.  Drukowanie FV oraz jej wysyłka wygada tak samo jak w przypadku FV.  
+FKD powinny być wystawiane jedynie w przypadku błędów leżących po stronie BYŚ. FKD można zmienić takie dane jak: NIP, nazwa, adres, forma płatności, brak danych na FV (np. tekst drukowany). FV wystawiane są z SAP, po ręcznym uzupełnieniu wszystkich danych. System mógłby automatycznie zaciągać informację, jakie dane zostały zmienione w BOK i podpowiadać je w dokumencie w SAP.  
+ 
+4. Sprawdzanie dopłat/zleceń niezafakturowanych (jednorazowe) 
+
+
+Pod koniec dnia kasjerka sprawdza listę niezafakturowanych zleceń. Polega to na wyfiltrowaniu w panelu dyspozytorskim zleceń podstawień i wymiany kontenerów bez przypisanej FV. Dotyczy to głównie przelewów 3 lub 7 dni. W przypadku przelewów 14 dniowych musimy uważać, czy klient nie jest fakturowany na koniec miesiąca (w zleceniu odbioru mamy zaznaczone w polu „fakturować” tak). 
+Dodatkowo sprawdzane są zlecenia „dopłat”. Kasjerka musi wyszukać każdego kontrahenta osobno i przeanalizować, czy dopłata jest zasadna czy nie (często klienci przesuwają zlecenia po czym załadują kontener wcześniej i zgłaszają go do odbioru). Na ten moment ręcznie wpisujemy w uwagach słowo „dopłata” – to może łatwo umknąć. Zlecenie dopłaty powinno być powiązane z odbiorem bądź wymianą kontenera 
+(powinno pojawiać się na dokładnie ten sam dzień lub na tym samym oknie). Zdarza się, że zlecenia z umowy przesuwane są „z dopłatą” – ta funkcja nie powinna działać na zleceniach z umowy.  
+Sprawdzane są także usługi dodatkowe tj. usługi transportowe oraz przeładowane kontenery. W tym wypadku trzeba ujednolicić wprowadzanie tego typu zleceń (dyspozytorzy przyjmują usługę „transport” na Wywóz Scania, czasem na HDS, czasem na Kontenery. Wg mnie przyczyna naliczenia usługi transportowej powinna pojawiać się na FV lub wymuszone powinno być jej podanie w zleceniu – np. odwołanie zlecenia – kierowca w drodze, zastawiony wjazd na budowę. Usprawni to rozwiązywanie reklamacji.  
+Trzeba poprawić fakturowanie dzierżawy za pierwszy miesiąc użytkowania Kabin WC - dzierżawa nie nalicza się za miesiąc, w którym została podstawiona.  
+ 
+5. KP/KW, dodawanie dostawcy 
+
+
+ 
+• KP  
+
+
+Po powrocie od klienta kierowca zgłasza się do kasy z kopią FV i gotówka. Kasjerka w SAP generuje dokument KP (Banki -> płatności przychodzące -> płatności przychodzące). Wyszukujemy klienta po jego numerze i wyświetlają się wszystkie nieopłacone dokumenty. Zaznaczamy, która faktura została opłacona, w metodach płatności wybieramy konto główne a kwota podpowiada się automatycznie po wciśnięciu ctrl+b. Dokument drukuje się na kartce A4, gdzie można rozdzielić go na część dla klienta (zazwyczaj jest wyrzucana) i część do zarchiwizowania w segregatorze. Na dokumencie KP drukuje się nazwisko kierowcy, który wpłacał pieniądze (automatycznie), 
+• KW 
+
+
+KW generowane jest do faktur wystawiony na BYŚ (zazwyczaj FV za zakupy działu technicznego, przejazd kierowcy przez autostradę, bilety parkingowe działu handlowego). W liście Partnerzy Handlowy po numerze NIP wyszukujemy dostawcę (jeśli go nie ma na liście tworzymy nowego). W polu „uwagi dziennika” wpisujemy numer FV, przechodzimy do „metod płatności”. Wybieramy konto główne i wpisujemy dokładną kwotę z FV. Po wydrukowaniu dokumentu podpisuje go kasjerka, która wypłacała pieniądze oraz osoba, która pieniądze za FV przyjęła. 
+ 
+ 
+• Tworzenie nowego dostawcy 
+
+
+SAP - > Dane Partnera Handlowego -> Dodaj -> odbiorca/dostawca -> lupa (nadaje się numer kontrahenta) -> wypełniamy NIP i nazwę -> dodaj -> wypełniamy dane adresowe 
+• KP/KW (wypłata własna) 
+
+
+W zakładce płatności przychodzące/wychodzące wybieramy „konto”. W polu „konto KG” wybieramy „rozrachunki z właścicielem. W polu kwota netto wpisujemy wpłacaną/wypłacaną kwotę a w uwagach dziennika wpisujemy kto dokonał wpłaty/wypłaty (np. wypłata własna – Monika Byśkiniewicz).  
+6. Raport kasowy (dzienny) 
+
+
+Na koniec dnia drukowany jest raport kasowy (banki - > raporty bankowe -> raport kasowy -> wyszukanie przez wpisanie daty RRRRMMDD). Następnego dnia kasjerka wpina raport i dokumenty KP/KW do segregatora układając wszystkie dokumenty w kolejności generowania. Na podstawie tego raportu weryfikowany jest stan kasy – plik w Excel, w którym wpisujemy Stan Kasy z raportu oraz wpisujemy, ile jest poszczególnych nominałów.  
+7. Wystawianie faktur na pozostałe usługi 
+
+
+Czasem wystawiane są faktury za usługi, które nie są wprowadzone do BOK, np. sprzedaż gruzu, sprzedaż samochodu, sprzedaż pojemników, naprawa opon. 
+FV wystawiane są bezpośrednio z SAP. Wyszukanie kontrahenta wygląda tak samo jak w przypadku tworzenia dokumentu KP, jeśli nie ma go w naszej bazie dodajemy tak samo jak dostawcę.  
+ 
+ 
+  
+20. UWAGI KOŃCOWE DO MODUŁU BOK: 
+
+
+ 
+• Każdy użytkownik powinien mieć możliwość pracy na jednocześnie kilku różnych oknach systemu- jest to bardzo ważna funkcjonalność.  Akceptujemy założenie limitu okien pracy dla każdego użytkownika (minimum 3 okna + ewentualne dodatkowe okna funkcyjne). 
+
+• W każdym module powinna być możliwość odtworzenia historii zmian- na karcie kontrahenta, zlecenia, umowy, BDO. W historii istotna jest wskazanie daty zmiany, zakresu oraz użytkownika wprowadzającego zmianę- oraz porównanie wprowadzonych zmian 
+
+• System powinien mieć możliwość wysyłki informacji masowych do klientów- np. o przesunięciach związanych z harmonogramami, różnych informacji. Wysyłka powinna być możliwa do wszystkich lub ustalonych grup klientów- aktywnych lub nie.  
+
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+II. MODUŁ BDO 
+
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+1. WSTĘP 
+
+
+Dane niezbędne dla zespołu BDO pobierane z BOK 
+- odpady – kody, ilości masy odebranych/przekazanych odpadów (na podstawie kpo, kpok, kody zwolnione z ewidencji), rodzaje odpadów wg ustalonych kryteriów (np. odpady komunalne z nieruchomości zamieszkałych o kodzie… dla gminy…. )  
+Umowy rozwiązane, zawiązane w konkretnych interwałach czasowych (zawierające dane o datach zawarcia, rozwiązania, nazwie klienta, adresie siedziby i świadczenia usługi), ilość nieruchomości objętych realizacją usługi na terenie danej gminy 
+- ścieki – ilości odebrane z terenu danej gminy, zlewnie gdzie i ile zawieziono, ile nieruchomości objętych usługą na terenie gminy, umowy zawiązane i rozwiązane w konkretnych interwałach z podaniem dat zawarcia, rozwiązania, nazw klientów, adresów  
+ 
+Skróty używane w opracowaniu: 
+BDO/rejestr BDO – baza danych o odpadach (= rejestr BDO) 
+KPO – karta przekazania odpadu 
+KPOK – karta przekazania odpadów komunalnych 
+KEO – karta ewidencji odpadów  
+KEOK – karta ewidencji odpadów komunalnych  
+MPD – miejsce prowadzenia działalności  
+ 
+Typy zleceń 
+- zlecenie kontenerowe – podstawienie, wymiana, odbiór 
+- Żródło zlecenia: harmonogram (wymiany odbiory wg umownego harmonogramu), zlecenie z umowy (przyjmowane na telefon/mail), zlecenie jednorazowe (telefon, mail, zlecenie przyjęte od klienta w BOK)  
+Rodzaje dokumentów na transport odpadów: karta przekazania odpadu (KPO), karta przekazania odpadu komunalnego (kpok) – wzory ustawowe wg rejestru bdo – konieczna integracja z rejestrem bazy danych o odpadach (posiadamy API BDO)  
+KPO/KPOK wymagane tylko na transport odpadów.  
+Blokada na generowanie, podpiananie kpo/kpok na podstawienie kontenera i przewóz pustych kontenerów 
+Dla zleceń z umowy i harmonogramu możliwe jest wpisanie kodów odpadów dla których generujemy kpo, kpok.  
+Konieczna automatyzacja wystawiania kpok do zleceń z harmonogramu.  
+ 
+Przyczyny zleceń powiązane z kpo/kpok: 
+- usługa bez kpo – stosowana np. do odbioru pustego kontenera 
+- osoba prywatna – dla odbiorów odpadów od osób fizycznych, usprawnienia: połączyć z ładunkiem i na wymianę/odbiór automatycznie generować kpok 
+- kod zwolniony z ewidencji – dla listy kodów, gdzie są zwolnienia z poziomu przepisów prawnych – usprawnienia – lista kodów, powiązanie przyczyny zlecenia z ładunkiem i kodem odpadu (słownik) 
+- klient zwolniony z ewidencji – dla podmiotów które nie mają obowiązku prowadzić ewidencji wytwarzanych odpadów np. na podstawie ustawy lub innych przepisów branżowych 
+- odpady komunalne – trzeba generować kpok  
+- kpo papier – wg stanu prawnego na dzień opracowania ważne tylko do 31-12-2020, później tylko e-KPO, KPOK 
+przyczyny zleceń należy powiązać z ładunkiem i kodem odpadu – słowniki do utworzenia 
+ 
+2. PODPISANIE KPO POD ZLECENIA 
+
+
+- wymina / odbiór kontenra, pojemnika, wywóz odpadów  
+Widok listy kontenerowej  
+ 
+
+Widok listy śmieciarkowej 
+ 
+
+Na liście zleceń klientów na dany dzień (wymiany z harmonogramu, odbiory śmieciarkowe) pojawia się informacja o dostępności KPO (pole status karty) dla kart wystawionych przez klientów. 
+KPO jest podpinane do zlecenia ręcznie – zakładka bdo (możliwe dalsze usprawnienia) 
+Widok zlecenia kontenerowego – klient bez integracji API, firma budowlana z 1 mpd 
+ 
+
+ 
+
+ 
+  
+Widok zlecenia śmieciarkowego (klient zintegrowane api BDO) 
+  
+
+Za prawidłowo podpięte kpo do zlecenia do realizacji przyjmuje się:  
+1. odpowiedni typ kpo/kpok (wg typu usługi),  
+
+2. data kpo/zlecenie +/- 24h,  
+
+3. lokalizacja odbioru odpadów wskazana na kpo – uwaga na różne typy kpo firma budowlana (możliwe używanie tylko 1 mpd jako siedziba), firma, np. biuro, sklep (możliwe wiele mpd) 
+
+4. status kpo (zatwierdzona),  
+
+5. kod odpadu zgodny ze zleceniem (zakładka ładunek), 
+
+6. prawidłowy wytwórca, transportujący i odbiorca odpadów wskazany na kpo (transportujący - BYŚ Wojciech Byśkiniewicz lub inna firma w przypadku transportu własnego wytworzonych odpadów) 
+
+7. prawidłowe mpd - miejsce prowadzenia działalności odbiorcy odpadów (dla BYŚ Wojciech Byśkiniewicz ul. Wólczyńska 249)  
+
+
+ Możliwe usprawnienia:  
+1. Automatyczne parowanie kpo ze zleceniami – zgodne podmioty wystawiające kpo/zlecenie 
+
+2. Automatyczne generowanie kpok przy przydzielaniu zlecenia  
+
+3. Automatyczne generowanie kpo dla klientów api aktywne przy przydzielaniu zlecenia.  
+
+4. Podpowiedź systemowa jaka karta jest wymagana – kpo/kpok (słownik połączony z polem usługa i ładunek zlecenia) 
+
+5. Zawężanie widoczności kpo do podpięcia wg zadanych kryteriów – data, mpd odbiorcy, status kpo 
+
+6. Wyświetlanie informacji o błędnym mpd BYŚ lub brak wyświetlania takiej kpo do podpięcia  
+
+7. Widoczny transportujący  
+
+8. Zawężenia widoczności kpo do podpięcia +/-24h 
+
+9. Utworzenie słowników łączących przyczynę zlecenia, ładunek i typ kpo 
+
+
+ 
+3. KLIENT ZINTEGROWANY- API AKTYWNE BDO 
+
+
+Dla klientów zintegrowanych wystawiamy automatycznie kpo pod zlecenia śmieciarkowe, półautomatycznie pod zlecenia kontenerowe lub odbiory HDS.  
+Dane do KPO pobierane z pozycji zlecenia: kod odpadu, lokalizacja odbioru odpadów, nazwa klienta (NIP), data.  
+klienci API aktywne – śmieciarki kpo powstaje automatycznie przy przydzieleniu trasówki  
+Klienci kontenerowi – trzeba kpo wygenerować recznie, konieczne ujednolicenie – kpo kontenerowe powinno generować się automatycznie przy przydzielaniu zlecenia  
+API nie generuje kpo dla klientów o innym nr nip niż płatnik – do usprawnienia. 
+ 
+
+ 
+  
+
+4. LISTA KPO/ KPOK NA API 
+
+
+Funkcjonują dwie rozdzielne listy – jedna dla kpo, druga dla kpok  
+Lista KPO 
+ 
+
+Pozwala na weryfikację np. w zakresie prawidłowych podmiotów transportujących odpady, mpd BYŚ, podpięcia KPO do zleceń, przeprocesowania KPO do kolejnych statusów, wydrukowania pojedynczej kpo (podglądu w pdf) 
+Możliwe jest wyeksportowanie listy do excel 
+Lista pozwala na oznakowanie błędnych kpo / KPOK 
+Na liście widoczne są wszystkie pozycje z KPO w BDO oraz dodatkowo pozycje identyfikujące kpo w BOK tj. nr zlecenia, data zlecenia. Pole informacje dodatkowe pozwala na oznakowanie kpo błędnych  
+Z pozycji listy istnieje możliwość zatwierdzania KPO, generowania potwierdzenia transportu, wycofania kpo. Do usprawnienia – uprawnienia poszczególnych grup użytkowników.  
+Brak funkcjonalności wskazywania mas odpadów na kpo odrzuconych do korekty klientów – np. w dodatkowej kolumnie - usprawnienie 
+Brak sum mas odpadów pod listą (dla szybkiego sprawdzania mas odpadów przyjętych np. w danym tygodniu) – do usprawnienia  
+Lista podzielona jest na 2 zakladki – „transport i przyjęcie” oraz „przekazanie”. Do sprawdzenia czy możliwe jest utworzenie jednej listy np. jako profil użytkownika. Dodatkowe znaczniki – przyjęcie/przekazanie dla odróżnienia trybu gospodarowania odpadami 
+ 
+Obraz zawierający tekst, stół
+
+Opis wygenerowany automatycznie
+Lista kpo/kpok powinna posiadać podsumowania i możliwość stworzenia raportów np. ilości i rodzaje przyjętych / przekazanych odpadów w okresach czasu np. dzien/tydzień, miesiąc itp. Forma – zarówno edytowalna jak i pdf gotowy do przekazania np. kierownictwu, klientowi  
+Z listy powinna być możliwość seryjnego drukowania kpo/kpok 
+Do ustalenia różne uprawnienia użytkowników np. grupowe / imienne/ pracownik bok – generowanie kpo, kpok, podpinanie kart pod zlecenia typowe, pracownik zatwierdzający kpo/kpok – edycja kart– odrzucanie kpo/kpok, możliwość potwierdzania kart, znakowanie kart błędnych, pracownik ochrony środowiska…  
+Lista kpok podzielona jest na dwie podgrupy odbiór i przejęcie odpadów komunalnych (tryb przejęcia i tryb przekaznaia odpadu)  
+Z listy mogą być zatwierdzane kpok nie podpięte do zleceń 
+Służy do weryfikacji kpok, przygotowania zestawień (możliwy eksport do excel, brak podsumowań)  
+ 
+
+ 
+Możliwość znakowania KPO/KPOK błędnych poprzez funkcję pola dodatkowe (funkcja używana do filtrowania danych wejściowych do ewidencji odpadów) 
+ 
+ 
+
+ 
+ 
+
+ 
+
+ 
+ 
+
+ 
+ 
+ 
+ 
+  
+5. ZATWIERDZANIE KPO/KPOK KONTENERY 
+
+
+ 
+Zatwierdzanie kpo / kpok na podstawie mas spod zlecenia (masy wpisuje kierowca do panelu tabletowego)  
+Kierowca weryfikuje też rodzaj ładunku z kontenera wg listy słownikowej – odpady budowlane/śmieci, gruz, drewno, liście, papier itp. (wg słownika). Słownik nie jest powiązany z kodami odpadów w ładunku (usprawnienie-może być powiązany np. gruz 17 01 01) . 
+Następnie osoba zatwierdzająca zlecenie (pracownik przeszkolony dział dyspozytornia) potwierdza/odrzuca do korekty kpo/kpok biorąc pod uwagę – masę i ładunek odebranych odpadów (możliwa automatyzacja/usprawnienie).  
+W oknie do generatora zatwierdzania/odrzucania kpo/kpok pojwiają się tylko karty przypięte do zleceń. Karty bez zleceń zatwierdzanie są z BDO lub z listy API kpo/kpok. 
+ 
+Usprawnienie Automatyczne / półautomatyczne potwierdzanie kpo po korekcie klienta zgodnej z żądaniem przejmującego odpad.  
+Automatyczne / półautomatyczne wprowadzanie kpo i kpok do właściwej karty ewidencji w rejestrze BDO – konieczna dalsza integracja w tym zakresie z rejestrem bdo poprzez API . 
+Automatyzacja wpisów w kartach ewidencji odnośnie przetworzeń odpadów na wskazanych kodach np. masy przyjęte = przetworzone . 
+ 
+
+ 
+ 
+
+ 
+  
+6. ZATWIERDZANIE KPO/KPOK ŚMIECIARKI 
+
+
+ 
+Widok okien do zatwierdzania kpo jak na kontenerach  
+Różnica: zatwierdzanie kpok do trasówki (karta nie jest przypięta do zlecenia, dotyczy wielu pozycji na trasówce, trzeba wyznaczyć masy wg algorytmu) 
+Wyznaczanie mas odpadów do KPO klientów - zlecenia trasa śmieciarki  
+- obecnie: wyznaczanie masy algorytmem tzw. generator 
+- docelowo: poprawienie funkcjonalności generatora i/lub połączenie systemu z X-truck (masy realne z danej lokalizacji) 
+Do zatwierdzenia mas odpadów odebranych z danej lokalizacji na KPO klienta używany jest algorytm tzw. generator.  
+Generator oblicza jednostkową pozycję mas pod klientem w oparciu o: wagę sypania śmieciarki (aktualnie wpisuje kierowca na papierowej trasie bez kwitu wagowego), ilość pojemników danego typu na trasie i zakładaną średnią masę pojemnika danego typu (w oparciu o pojemność pojemnika i rodzaj odbieranego odpadu np. 1100 l komunalny, 1100 l surowcowy, 120 l bio, 240 l szkło itp.).  
+Obecnie masy generowane przez system obarczone są błędem – ilość odebranych pojemników pobierana jest z trasy śmieciarek wg pól Ilość(Real).  
+W polach Ilość (Real) wpisywane są faktyczne ilości odebranych pojemników (dla sposobu fakturowania jest to faktyczna ilość odebranych pojemników). Dla rozliczenia ilość z umowy jest to wartość nie mniejsza jak ilość pojemników stojąca u klienta + ew. nadwyżki (nie możemy wpisywać 0, bo się nie zafakturuje). 
+Dla rozliczenia ilość z umowy nie mamy możliwości wpisywania odbiorów zerowych. Brak odbioru/pojemnik pusty zawyża nam pulę odpadów do rozliczenia na poszczególnych klientów.  
+ 
+ 
+  
+Obecnie występujące błędy przy ewidencji:  
+• Podpięcie KPO pod inna pozycje zlecenia np. pomyłka rodzajów odpadów, podpięcie KPO pod pozycję z mniejszym pojemnikiem itp.  (inne masy pojemników do generatora) – uważne sprawdzanie czy są inne pozycje na trasie danego dnia, brak połaczenia z inną trasą (ginące masy)  
+
+• Dla zrealizowanej mniejszej ilości odbiorów (pojemniki puste lub zastawione) niska waga sypania śmieciarki + pobieranie ilości pojemników na trasówce z pola ilość(Real) bez rozdzielenia sposobu fakturowania i ewidencji odpadów.  
+
+• Brak podpowiedzi – na trasie jest więcej pozycji jak 1 pod danym klientem (brak sumowania pozycji)  
+
+• Brak informacji – zerowy wywóz odrzuć KPO  
+
+• Brak informacji – więcej jak 1 KPO do zlecenia, brak podpowiedzi mas z udziału % pod zleceniem (przy pojedynczym zleceniu możemy to sprawdzić, jak mamy 2-3 zlecenia na trasie trzeba sumować ręcznie lub ustalić przepięcie KPO pod 1 zlecenie co nie zawsze jest możliwe np. przy b. niskim udziale % jakiejś frakcji odebranych odpadów) 
+
+
+Docelowo: 
+- urealnienie mas odebranych odpadów z danej lokalizacji: 
+• poprawa funkcjonalności generatora (rozdzielenie ilości odebranych pojemników od sposobu fakturowania – m.in. wartości zerowe, sprawdzenie słownikowych mas pojemników danej pojemności i rodzaju odebranych odpadów) 
+
+• do słownikowych mas pojemników przyjąć szacunkowe minimalne przedziały wartości, np.  
+
+
+ 
+pojemnik 
+ Kod odpadu 
+ Szacunkowa masa [kg] 
+ 
+
+1100 
+ 20 03 01 
+ 55-65 
+ 
+1100 
+ 15 01 01 
+ 35-45 
+ 
+1100 
+ 15 01 02 
+ 30-40 
+ 
+1100 
+ 15 01 05 
+ 45-60 
+ 
+1100 
+ 16 03 80 
+ 60-75 
+ 
+240 
+ 15 01 01 
+ 15-20 
+ 
+240 
+ 15 01 02 
+ 10-20 
+ 
+
+
+240 
+ 20 03 01 
+ 20-25 
+ 
+
+
+Konieczna możliwość modyfikacji wg potrzeb  
+ 
+• po wpisaniu wagi sypania trasówki system może przydzielać minimalne bądź większe wartości dla pojemnika i przypisanego dla niego kodu 
+
+• sumowanie mas danego rodzaju odpadów odebranych z danej lokalizacji (wirtualna trasa)  
+
+• integracja z X-truck 
+
+• dodatkowe pole z uwagami w oknie do zatwierdzania KPO przeznaczone dla klientów z którymi mamy wewnętrzne ustalenia do zatwierdzania kart  
+
+
+- automatyczne wyznaczanie masy odpadów pozostałych np. komunalnych, bio, szkła do zatwierdzenia na innym typie kart 
+ 
+KPOK wirtualne zlecenie/trasa do automatyzacji wystawiania i zatwierdzania kpok oraz wyznaczenia masy łącznej do zatwierdzenia na karcie. 
+ 
+ 
+ 
+  
+7. RAPORTOWANIE 
+
+
+Jakie dane zespół BDO-BOK potrzebuje pobierać z systemu: 
+- odpady – kody, ilości masy odebranych/przekazanych odpadów (na podstawie kpo, kpok, kody zwolnione z ewidencji), rodzaje odpadów wg ustalonych kryteriów (np. odpady komunalne z nieruchomości zamieszkałych o kodzie… dla gminy…. )  
+Umowy rozwiązane, zawiązane w konkretnych interwałach czasowych (zawierające dane o datach zawarcia, rozwiązania, nazwie klienta, adresie siedziby i świadczenia usługi), ilość nieruchomości objętych realizacją usługi na terenie danej gminy 
+- ścieki – ilości odebrane z terenu danej gminy, zlewnie gdzie i ile zawieziono, ile nieruchomości objętych usługą na terenie gminy, umowy zawiązane i rozwiązane w konkretnych interwałach z podaniem dat zawarcia, rozwiązania, nazw klientów, adresów  
+Do czego służą dane: 
+I. ustawowe raportowanie środowiskowe do urzędów (urzędy miejskie, gminne, marszałkowskie – zarówno przez rejestr bazy danych o odpadach jak i w formie papierowej)  
+
+
+Typy sprawozdań: 
+1. odpady komunalne – sprawozdanie podmiotu odbierającego odpady komunalne od właścicieli nieruchomości - sprawozdanie roczne składane przez rejestr BDO, przygotowywane w oparciu o wzory ustawowe w oprogramowaniu zewnętrznym 
+
+2. odpady komunalne i niekomunalne (wytworzone, odebrane) – gospodarowanie, magazynowanie – sprawozdanie roczne przez rejestr BDO- uwaga na wytworzenia i limity dla instalacji (przyjęte, przetworzone, wytworzone) 
+
+3. ścieki – sprawozdanie podmiotu odbierającego nieczystości płynne – kwartalne do urzędów gminnych – poza bdo.  
+
+
+ 
+II. raportowanie do klientów np. kontrakty miejskie, certyfikacje ekologiczne (np. BREEAM, LEED), zestawienia do faktur, dokumentów recyklingowhych (DPR, EDPR, DPO) 
+
+III. przygotowanie raportów / danych dla zarządu, innych działów np. rodzaje i ilości odpadów przyjętych, przekazanych w okresie pierwszego kwartału/półrocza, tygodnia, miesiąca itp.  
+
+
+ 
+ 
+„Dział środowiskowy” przygotowując zestawienia bierze pod uwagę na jaki rodzaj odpadu zawarto umowę z danym klientem, np. umowa na odbiór odpadów komunalnych, umowa na odbiór odpadów o kodzie…. Dział BOK-BDO ściśle współpracuje z BOK w zakresie prawidłowego ewidencjonowania przyjęć odpadów.  
+Współpraca z innymi działami / osobami – zatwierdzający trasówki, potwierdzającymi kpo/kpok.  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+III. DYSPOZYTORNIA- KONTENERY / HDS 
+
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+1. DYSPOZYTORNIA 1.1. Dział zajmuje się planowaniem pracy kierowców pojazdów kontenerowych, asenizacyjnych, HDS oraz pojazdów z naczepami. 
+
+1.2. Do działu dostarczane są kompletne zlecenia zawierające potrzebne dane do ich realizacji.  
+
+
+
+
+
+
+
+
+
+
+
+1.3. Zlecenia dostarczane są przez Dział Obsługi Klienta 
+
+1.4. Zlecenia harmonogramowe - dostarczane są automatycznie na podstawie warunków umowy 
+
+1.5. Modyfikacje względem aktualnego systemu 1.5.1.  Automat grupujący zlecenia np. względem lokalizacji czy możliwości piętrowania kontenerów 
+
+1.5.2.  Informowanie dyspozytora o przyjściu nowego zlecenia pasującego lepiej do trasówki dla danego kierowcy 
+
+1.5.3.  Zlecenia na następny dzień powinny być automatycznie rozdysponowane do kierowców 
+
+1.5.4.  Połączenie HRM Comarch z BOK (kierowcy na zwolnieniu/urlopie nie będzie można przypisać zlecenia) – połączenie stworzone na podstawie ID pracownika z Optimy do SAP (dane z HRM do Optimy przesyłane są co 15 minut).  
+
+1.5.5. System powinien podpowiadać jak równomiernie rozkładać zlecenia dla kierowców – np. jeśli miał jedno zlecenie daleko to kolejne powinien mieć bliżej 
+
+1.5.6. Funkcja przydziel po powrocie na bazę- kierowca obecnie dostaje np. 9/12 zleceń na kolejne 3 wyjazdy- informacja w systemie widnieje, że dostał zlecenie o 6 rano a realnie zrealizuje je w późniejszych godzinach- potrzeba by system przydzielił te zlecenia do kierowcy ale dopiero po zameldowaniu się na bazie. 
+
+1.5.7. Dyspozytor powinien mieć możliwość po kliknięciu w auto sprawdzić historię użytkowania przez kierowców, postoju na warsztacie-powodów-, ewentualnie napraw wykonanych napraw. Tak samo w przypadku kierowcy- historia kiedy i czym jeździł. 
+
+1.5.8.  Możliwość wysyłania grupowych wiadomości na tablety 
+
+1.5.9.  Możliwość wysyłania grupowego sms do kierowców 
+
+1.5.10. Komunikat dla dyspozytora, że w danym dniu auto było przydzielane już w parze z innym kierowcą. (Jeżeli na dane auto zostało w tym dniu przypisane zlecenie operator dostaje taka informacje od systemu).  
+
+1.5.11.  Baza kierowców z ich danymi w systemie z podziałem na grupy np. Kierowcy Kontenery, Kierowcy Śmieciarki itd. 
+
+1.5.12.  Czas pracy kierowcy i jazy z danego dnia na liście kierowców 
+
+1.5.13.  Pobranie z setivo informacji o statusie auta status: aktywny/ nieaktywny/ w naprawie. 
+
+1.5.14. Informowanie dyspozytora, że żadne ze zleceń, które otrzymał kierowca nie zostało zaakceptowane -„nie ruszyło”. (Rano około godziny 6.45-7.00 zlecenia wysłane dzień wcześniej, ewentualnie te z tego samego dnia nie zmieniające statusu z wysłanego na dojazd zaczynają świecić na czerwono/różowo - problem, kiedy zlecenie wysłane a kierowca nie informuje dyspozytora o nieobecności) 
+
+1.5.15.  Komunikat dla dyspozytora, że w danym dniu auto było przydzielane już w parze z innym kierowcą. (Jeżeli na dane auto zostało w tym dniu przypisane zlecenie operator dostaje taka informacje od systemu).  
+
+1.5.16.  Komunikat dla dyspozytora, że w danym dniu auto było przydzielane już w parze z innym kierowcą. (Jeżeli na dane auto zostało w tym dniu przypisane zlecenie operator dostaje taka informacje od systemu).  
+
+1.5.17.  Komunikat dla dyspozytora, że w danym dniu auto było przydzielane już w parze z innym kierowcą. (Jeżeli na dane auto zostało w tym dniu przypisane zlecenie operator dostaje taka informacje od systemu).  
+
+1.5.18.  Samouczek do parowania zleceń. Wstępne rozwiązanie: kolumna grupowania G1, G2, G3…  1.5.18.1. Parowanie zleceń z dla aut mogących jeździć z przyczepą (nauczony na podstawie danych historycznych) 
+
+1.5.18.2. Parowanie zleceń na podstawie algorytmu kolejności parowania:  1.5.18.2.1. zlecenia powtarzalne - czas przydzielenia, nr rejestracyjny auta; 
+
+1.5.18.2.2. wszystkie zlecenia – jednakowa dzielnica/miasto wykonania usługi, godzina realizacji. 
+
+
+
+
+
+
+
+1.5.19. Brak mapy zleceń kontenerowych (z dodatkiem kolorystyka – zbliżający się przedział czasowy  
+
+1.5.20. Sugestie zleceń (do podstawienia . odbiór w okolicy w podobnych godzinach) 
+
+1.5.21. Smsy do klientów o etapach realizacji zlecenia (jak u kurierów), 
+
+1.5.22. Smsy do klientów powiadamiające o przestoju kontenera (długo stoi bez żadnych akcji – wymian/ odbiorów) 
+
+1.5.23.  Sugestie w zleceniu na tablecie dla kierowcy miejsce wysypania kontenera na naszym placu – aktywna nauka gdzie kontenery o pewnej wadze/zawartości/pochodzące od klientów były wsypywane wcześniej 
+
+1.5.24. Inteligentne parowanie zleceń w sensie program powtarza to co robi dyspozytor (zlecenia z harmonogramu zawsze jadące na tych samych rodzajach pojazdów)  
+
+1.5.25. BRAK AWIZACJI FIRM ZEWNĘTRZNYCH przyjeżdżających po odbiór surowców wtórnych – stworzenie obszaru z automatycznymi awizacjami np. przez SMS, etapami realizacjami odbioru, powiązanie tych zleceń z BDO. 
+
+
+
+
+
+
+
+
+ 
+ 
+ 
+ 
+1.2.1. Typ zlecenia 
+ 
+ 
+1.2.2. Dane podstawowe – nazwa klienta, adres wykonania usługi 
+ 
+ 
+1.2.3. Rodzaj wykonania usługi 
+ 
+ 
+1.2.4. Rodzaj pojemnika 
+ 
+ 
+1.2.5. Szczegóły realizacji – data realizacji 
+ 
+ 
+ 
+ 
+1.2.6. Uwagi 
+ 
+ 
+1.2.7. Szczegóły – rodzaj płatności (gotówka, przelew) 
+ 
+ 
+1.2.8. Ładunek 
+ 
+ 
+  
+1.2.9. BDO – załączenie karty przekazania odpadu KPO lub KPOK 
+ 
+ 
+ 
+ 
+ 
+-zlecenia z harmonogramu pojawiają się z błędami. NP. Jeśli mamy podstawienie w pierwszy piątek a odbiór w pierwszą sobotę miesiąca a piątek jest ostatnim dniem miesiąca poprzedniego pojawia nam się odbiór bez podstawienia w sobotę, a w piątek w przyszłym tygodniu, podstawienie bez odbioru. To samo dotyczy świąt system sam nie przesuwa zleceń. 
+2. DYSPOZYTOR 1.1. Osoba zajmująca się realizacją zleceń, przekazując je do odpowiedniego kierowcy poprzez wysłanie na tablet 
+
+
+1.2. Żeby poprawnie zaplanować zlecenie Dyspozytor musi wziąć pod uwagę kilka czynników 
+
+1.3. Dyspozytor musi uwzględniać obowiązujący czas pracy kierowcy, który jest rejestrowany za pośrednictwem tachografu znajdującego się w każdym pojeździe, wykorzystuje wtedy dodatkowy system monitorowania pojazdów oparty na urządzeniach GPS 
+
+1.4. Dyspozytor musi przydzielać zlecenia do odpowiedniego rodzaju pojazdu 
+
+1.5. Zajmuje się potwierdzaniem zleceń odbioru kontenerów z klientami oraz ustalaniem sposobu jego realizacji 
+
+1.6. Modyfikacje względem aktualnego systemu 1.6.1.  Wprowadzenie elektronicznych wniosków urlopowych 
+
+1.6.2.  Podgląd zlecenia dla kierowców przychodzących na drugą zmianę – dzisiaj musi wejść do biura i sprawdzić co ma do zrobienia przed włożeniem karty do tacho 
+
+1.6.3.  Integracja z systemem bramkowym na potrzeby kontroli czasu pracy kierowców 
+
+
+
+
+
+
+
+
+ 
+  
+. Lokalizację 
+
+. Aktualny ruch na drodze 
+
+. Dostępność kierowców 
+
+. Rodzaj pojazdu 
+
+
+ 
+
+ 
+ 
+  
+3. KIEROWCA 1.1. Osoba zajmująca się wykonaniem zleceń 
+
+1.2. Ma przydzielony do siebie pojazd, w którym znajduje się tablet 
+
+1.3. Kierowca otrzymuje zlecenia w postaci elektronicznej 
+
+1.4. Kierowca zobowiązany jest do prawidłowego realizowania zleceń zgodnie z przyjętymi zasadami 
+
+1.5. Etapy realizacji zleceń na tablecie widoczne w systemie BOK: 
+
+
+
+
+
+ 
+
+. Zlecenie wysłane 
+
+
+  
+
+ 
+. Akceptacja lub odrzucenie zlecenia – dyspozytor widzi zmianę stanu w systemie BOK  
+
+
+ 
+
+ 
+  
+. Dojazd do klienta 
+
+
+ 
+
+ 
+. Wykonanie zlecenia u klienta 
+
+
+ 
+
+ 
+. Zrealizowanie zlecenia poprzez ważenie towaru na bazie firmy 
+
+
+ 
+
+  
+. Automatyczna zmiana statusu karty BDO z zatwierdzonej na Potwierdzenie wygenerowane – do karty BDO dodawane są nr rejestracyjny pojazdu, czas wyjazdu 
+1.6. Modyfikacje względem aktualnego systemu 1.6.1.  Podczas przydzielania zlecenia system powinien sprawdzić czy czas pracy kierowcy pozwoli mu na jego realizację 
+
+1.6.2.  Aplikacja na tablecie powinna po otrzymaniu zleceń zaproponować najbardziej optymalną trasę, uwzględniając rodzaje kontenerów, aktualny ruch na drodze, ilość zleceń np. rozłożyć na dwa kursy albo jeden z przyczepą 
+
+1.6.3.  Kierowca na tablecie powinien mieć jasną informację czy ma pobrać gotówkę od klienta 
+
+1.6.4.  Na tablecie powinien otrzymać informację czy ma pobrać fakturę 
+
+1.6.5.  Do zlecenia faktura powinna czekać na kierowcę w wyznaczonym miejscu, kierowca nie powinien stać przy kasie i na nią czekać (faktura mogła by czekać już na drukarce w poczekalni dla kierowców) 
+
+1.6.6.  Kierowca powinien otrzymać pierwsze zlecenia dodatkowo np. smsem (powinno być do kogo jedzie, na którą ma być godzinę, jaki ma zabrać kontener) – nie musiał by przychodzić do biura i się dowiadywać 
+
+1.6.7.  Przekazanie kierowcy terminali płatniczych w celu wyeliminowania operacji gotówkowych 
+
+1.6.8.  Kierowca na tablecie powinien móc wprowadzać uwagi do zlecenia  
+
+1.6.9.  Możliwość robienia zdjęć i podpinanie je pod zlecenia 
+
+1.6.10. Możliwość oznaczenia kierowców w systemie do akcji zima 
+
+1.6.11. Możliwość wyznaczania czasu powrotu kierowcy na bazę po skończonych zleceniach – dyspozytorowi łatwiej będzie przydzielać zlecenia 
+
+1.6.12. Zmiana kontrolek papierowych na elektroniczne z możliwością ich wydrukowania 
+
+1.6.13. Kierowca szambiarki powinien mieć możliwość wprowadzenia na tablecie ilości pobranej od klienta 
+
+1.6.14. W przypadku szambiarek konieczne jest dodanie możliwości odnotowania ile litrów zlał kierowca na danej zlewni 
+
+1.6.15. W przypadku zlewni kierowca powinien móc sam dodać zlecenia z pozycji tabletu 
+
+1.6.16.  Limitowanie liczby zleceń np. dla szambiarki 
+
+1.6.17. Bezpośrednia synchronizacja systemu wagowego z systemem do zleceń-tak by operator bok mógł zobaczyć kwit wagowy dla zlecenia 
+
+
+
+
+
+
+
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+4. POJAZDY 1.1. Pojazdy dzielimy na: 1.1.1.  Hakowce 
+
+
+1.1.2.  Bramowce 
+
+
+1.1.3.  HDS 
+
+
+1.1.4.  Pojazdy z naczepami 
+
+
+1.1.5.  Pojazdy asenizacyjne 
+
+
+
+
+
+1.2. Modyfikacje względem aktualnego systemu 1.2.1.  Możliwość zablokowania pojazdów do używania w trakcie akcji zima – dyspozytor nie mógł by wykorzystać pojazdów do codziennej pracy 
+
+
+
+
+
+
+
+
+ 
+ 
+  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+ 
+ 
+ 
+ 
+  
+5. ZLECENIA 1.1. Zlecenie jest zbiorem informacji wymaganych do jego poprawnego realizowania. 
+
+1.2. Zlecenia dzielimy na: 
+
+1.3. Każde zlecenie zawiera następujące dane potrzebne Dyspozytorowi oraz Kierowcy do prawidłowej realizacji: 
+
+1.4. Do zleceń, w których wymienia się lub odbiera kontener wymagane są karty przekazania odpadu (BDO) dostarczane przez klienta 
+
+1.5. Modyfikacja względem aktualnego systemu 1.5.1.  Zlecenia przydzielone może modyfikować tylko Dyspozytor 
+
+1.5.2.  Zlecenie zmodyfikowane powinno automatycznie przenieść dane na tablet bez potrzeby odpinania go i ponownego wysyłania jak to jest dzisiaj 
+
+1.5.3.  W przypadku dodania zmian w zleceniu realizowanym na tablecie musi pojawić się komunikat dla kierowcy 
+
+1.5.4.  W systemie musi pojawić się nowy typ zleceń – np. w przygotowaniu, takie zlecenia będą już widoczne ale nie będą mogły być realizowane jeszcze bo będą miały jakieś braki w danych np. klient jeszcze nie zrobił karty BDO 
+
+1.5.5.  W przechowalni powinny znajdować się zlecenia, które można wykorzystać tylko w przypadku powiązania z poprzednim zleceniem podstawienia lub wymiany 
+
+1.5.6.  Kontenery muszą zostać oczipowane 
+
+1.5.7.  Mechanizm szybkiego dodawania nowych kontenerów do systemu – na urządzeniu skanującym wybieramy rodzaj kontenera np. kp7 i skanujemy 2 różne kody doczepione do kontenera (w razie awarii jednego czipa musi być drugi), wtedy automatycznie doda się kolejny numer 
+
+1.5.8.  W trakcie obsługi zlecenia u klienta kierowca powinien skanować nr kontenera, który później pojawi się jako nr właściwy na tablecie 
+
+1.5.9.  Jeśli znajduje się karta w BDO do zlecenia to system sam ją podpina 
+
+1.5.10. Możliwość sprawdzenia historii zlecenia – np. co było zmienione, kiedy, przez kogo 
+
+1.5.11. Zlecenia na tablecie powinny wyglądać odpowiednio do jego rodzaju – np. jeśli mamy zlecenie na kontenery może wyglądać tak jak dzisiaj ale jak mamy szambo to trzeba je dostosować wyglądem i parametrami, do każdego rodzaju zlecenia wymagane są inne dane 
+
+1.5.12. Wpisana uwaga przez kierowcę np. konieczny mniejszy samochód do realizacji zlecenia u klienta powinno przenosić się automatycznie do odbioru/wymiany 
+
+1.5.13. Możliwość liczenia jak pakować pojemniki np. 1100, 240, 120 do podstawienia u klientów – ile wejdzie i jakich pojemników do kontenera kp7 lub kp14 lub innego 
+
+1.5.14. Wysyłanie sms do klienta w momencie rozpoczęcia realizacji zlecenia 
+
+1.5.15. Stworzenie zleceń dodatkowych – np. prace na placu 
+
+1.5.16. Stworzenie zleceń na dodatkowe usługi dla klientów – np. przestawienie kontenera, przewiezienie go w inną lokalizację 
+
+1.5.17. W przypadku zlecenia z fakturą, kasa dostaje informację o wystawieniu faktury i wysyła ją na drukarkę dla kierowców 
+
+1.5.18. W przypadku braku karty BDO podpiętej pod zlecenie system powinien zapytać czy wysłać takie zlecenie 
+
+
+
+
+
+
+
+
+ 
+. Kontenery 
+
+. HDS 
+
+. Asenizacja 
+
+. Śmieciarki 
+
+. Utylizacja 
+
+. Zlecenia własne 
+
+. nazwę klienta 
+
+. adres realizacji 
+
+. datę realizacji 
+
+. rodzaj wykonanego zadania 
+
+. informację o płatności 
+
+. uwagi dotyczące realizacji 
+
+. rodzaj kontenera 
+
+. karcie BDO 
+
+. numer zlecenia 
+
+. rodzaj odbieranego odpadu 
+
+
+ 
+
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+  
+6. REALIZACJA ZLECEŃ NA TABLECIE 1.1. Przyjmowanie zleceń 
+
+
+
+
+
+
+1.2.1. Etap Dojazd 
+
+1.2.2. Etap Transport 
+
+1.2.3. Etap wykonane 
+
+
+
+1.2.4. Etap Ważenie 
+
+
+
+
+
+
+1.3. Modyfikacja względem dzisiejszego systemu 1.3.1.  System powinien podpowiedzieć jaki kontener ma zabrać kierowca 
+
+1.3.2.  W przypadku pojawienia się modyfikacji na zleceniu, powinien pojawić się komunikat dla kierowcy na tablecie 
+
+1.3.3.  Dodanie dodatkowych klawiszy z możliwością ich zaraportowania np. tankowanie, pompowanie opon, zakończenie pracy 
+
+1.3.4.  Możliwość wybrania dowolnej nawigacji 
+
+1.3.5.  Powinna być podpowiedź, który kierowca ostatnio podstawiał kontener 
+
+1.3.6.  Dostęp do listy kontaktowej pobieranej np. z systemu 
+
+1.3.7.  Modyfikacja wpisanych danych przez kierowcę – np. kierowca wpisał błędnie numer kontenera, może go sam poprawić, po zmianie dane zmodyfikują się w systemie 
+
+1.3.8.  Podpinanie zdjęć robionych przez kierowca u klienta-przeładowane kontenery- jaki po wysypaniu- eternit w kontenerze. Automatycznie kierowca odnotowuje w tablecie, że coś z zawartością kontenera jest nie tak – ta informacja jest zwracana do BOK. 
+
+1.3.9.  Kierowca z tabletu powinien informować pozostałych użytkowników np. o wypadku na tej ulicy, kontroli drogowej, strajku…. Pozostałych użytkowników tabletów. 
+
+
+
+
+
+
+
+
+ 
+Po wysłaniu zlecenia przez Dyspozytora na górnym pasku pokaże się ilość zleceń do wykonania 
+ 
+ 
+Klikając na niego pojawi się nowe okno, w którym musimy zaakceptować albo odrzucić zlecenia 
+Po zaakceptowaniu zlecenia pojawi się ono na liście zleceń w części Plan Podróży 
+ 
+Następnie wchodzimy do zlecenia a tam możemy odczytać wszystkie potrzebne informacje do jego realizacji: 
+Nazwa klienta 
+Adres pod jaki mamy pojechać 
+Co mamy wykonać 
+ 
+Mamy też możliwość bez wpisywania adresu przejść na mapę, która poprowadzi do adresu jaki znajduje się w zleceniu. 
+ 
+W związku z obowiązkiem posiadania kart BDO podczas transportu towaru, na tablecie przy zleceniach, w których jest wymagana karta BDO, załączona jest w postaci elektronicznej Karta. 
+ 
+ 
+  
+1.2. Obsługa zlecenia 
+ 
+Rozpoczęcie pracy ze zleceniem 
+Po otwarciu zlecenia pokażą się Etapy realizacji zlecenia: Dojazd, Transport, Wykonane, Ważenie, Problem 
+Przyjęcie zlecenia do realizacji powoduje zmianę statusu karty dla której przypisuje się numer rejestracyjny auta które realizuje zlecenie. 
+ 
+Naciskamy go jak wyjeżdżamy z terenu firmy po odbiór odpadów. 
+Naciskamy go wtedy gdy: 
+- odbierzemy odpady i załadujemy je na samochód 
+- wywozimy odpady z bazy w inne miejsce 
+Nie naciskamy go gdy nie mamy 100% pewności, że zabierzemy odpady. 
+Naciskamy go wtedy gdy mamy już kontener załadowany na samochód. 
+W tym etapie uzupełniamy numery kontenerów. 
+ 
+Jeśli mamy wprowadzony poprawny numer kontenera naciskamy Potwierdź 
+Po poprawnym wprowadzeniu pojawi się komunikat podsumowujący czy wpisaliśmy wszystko poprawnie. 
+ 
+Jeśli jest poprawnie to naciskamy Potwierdź jeśli nie to naciskamy Anuluj i ponownie wpisujemy numery kontenerów. 
+ 
+ 
+ 
+  
+Naciskamy go po zważeniu tego co transportowaliśmy. 
+Wpisujemy wagę w kilogramach oraz z listy wybieramy rodzaj ładunku i naciskamy Potwierdź. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+7. Zatwierdzanie zleceń 1.1. Zatwierdzanie zleceń polega na akceptowaniu zlecenia przez odpowiednią jednostkę organizacyjną zgodnie z przyjętymi zasadami. 
+
+
+
+
+
+ 
+Dane ze zlecenia uzupełnionego przez kierowcę przenoszone są do systemu. 
+W systemie danymi uzupełniane są pola: 
+. Nr kontenerów 
+
+. Waga 
+
+. Rodzaj odpadów 
+1.2. Modyfikacja względem dzisiejszego systemu 1.2.1.  Automatyczne zatwierdzanie zleceń jeśli zgadzają się wszystkie dane po zważeniu przez kierowcę i dokonaniu identyfikacji odpadu.  
+
+1.2.2.  Podpowiadanie jeśli mamy jakieś niezgodności na zleceniu z podpiętą do niego umową. Jeśli mamy podpiętą umowę z systemu na gruz a kierowca przywiózł np. odpady zmieszane. Także ze strefami często się zdarza, że kontener poza Warszawą ma podpiętą umowę z lokalizacji Warszawa a wszystko pozostałe się zgadza.  
+
+1.2.3.  W momencie odbioru kontenera automatyczne zamykanie cyklu. Dla przyjmujących zlecenie musi się cykl otwierać z automatu. 
+
+
+
+
+
+
+
+
+ 
+Zatwierdzone zlecenie musi być zgodne z danymi klienta oraz umową dla jakiej dane zlecenie zostało zrealizowane. 
+ 
+ 
+Zlecenia muszą być zatwierdzane na bieżąco lecz nie później niż następnego dnia. 
+ 
+ 
+ 
+  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+IV. DYSPOZYTORNIA- ŚMIECIARKI 
+
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+1. DYSPOZYTOR 1.1.  Osoba zajmująca się planowaniem pracy pojazdów bezpylnych 
+
+1.2.  Przygotowuje i zatwierdza trasy, po których będą poruszać się pojazdy 
+
+1.3. Koordynuje realizację zleceń na danych trasach 
+
+1.4. Utrzymuje stały kontakt z kierowcami 
+
+1.5. Alerty w formie raportu i okienek w programie: przekroczenie strefy przez pojazd, przeładowanie śmieciarki ponad DMC, czas do wyjazdu, czas postoju na obszarze, - częściowo przygotowane 
+
+1.6.  
+
+1.7. Modyfikacje względem aktualnego systemu 1.7.1. Możliwość wysłania grupowych wiadomości do kierowców czat/sms 
+
+1.7.2. Tworzenie grafiku dla pojazdów i pracowników w programie, z uwzględnieniem awarii, serwisów, urlopów. 
+
+1.7.3. Zarządzanie harmonogramem i zleceniami na podstawie połączenia cykli, mapy, historycznych przejazdów. 
+
+
+
+
+
+
+
+
+ 
+ 
+2. ZLECENIA 2.1. Każde zlecenie zawiera następujące dane potrzebne Dyspozytorowi oraz Kierowcy do prawidłowej realizacji: 
+
+
+
+
+
+ 
+- nazwę klienta 
+
+- adres realizacji 
+
+- datę realizacji 
+
+- rodzaj wykonanego zadania 
+
+- uwagi dotyczące realizacji 
+
+- rodzaj pojemnika 
+
+- karcie BDO 
+
+- numer zlecenia 
+
+- rodzaj odbieranego odpadu 
+2.2.  Zlecenia są generowane na podstawie umów wprowadzanych przez BOK. Dla wybranych pozycji umowy tworzą się zlecenia na konkretny dzień tygodnia i pojazd/trasę 
+
+
+
+
+
+ 
+ 
+ 
+ 
+3. TRASÓWKI 3.1.  Trasa, po której porusza się kierowca nazywa się Trasówką 
+
+3.2. Obsługa tras umożliwia listowanie realizowanych tras, wygenerowanie trasówki- jej wydruk i wysłanie na tablet, wygenerowanie potwierdzeń wywozu – wydruk i podpięcie do zlecenia wysłanego na tablet 
+
+3.3.  Trasa zawiera następujące dane: 
+
+
+
+
+- dzień na jaki jest zadana,  
+
+- tytuł,  
+
+- numer bądź nazwę dla jakiego samochodu jest przydzielona  
+
+- nr rejestracyjny samochodu 
+
+- przebieg kilometrów  
+
+- wagę każdego sypania się śmieciarki  
+
+- waga opróżnianego pojemnika ( tam gdzie śmieciarka z wagą )  
+
+- pola umożliwiające ustawienie trasówki (trasę jazdy kierowcy) w taki sposób , w jakiej kolejności jest wykonywana   
+
+- numer klienta,  
+
+- dane posesji: ulica wraz z numerem domu i/lub lokalu,  
+
+- miejscowość wywozu  
+
+- właściciel pojemnika 
+
+- czy jest konieczność podpisania potwierdzenia wywozu 
+
+- kolumnę ilości pojemników na posesji i kolumnę ilość pojemników do opróżnienia danego dnia  
+
+- rodzaj pojemnika i frakcję 
+
+- okno uwag , w którym będą drukowały się informacje ważne dla kierowcy , wprowadzone wcześniej przez pracownika biura w oknie przy posesji klient  
+
+- okno uwag w którym kierowca będzie mógł wpisać informacje, np. wymiana pojemnika, pojemnik spalony, posesja zamknięta, godzina podjazdu itp.  3.4.  Do wygenerowania trasówki potrzebne są: 
+
+3.5.  Generowanie trasówki odbywa się na dzień przed jej realizacją 
+
+3.6.  Tworzenie trasy powinno być generowane na wybrany dzień, identyfikator trasy, pojazd z numerem rejestracyjnym, pracowników 
+
+3.7.  Podczas stworzenia trasy powinny się utworzyć KPO ze zleceń w niej występujących 
+
+3.8.  Wygenerowana trasa powinna trafić na tablet, a zlecenia zmienić status 
+
+3.9.  Moduł realizacji zleceń na śmieciarki służy do zarządzania zleceniami generowanymi z harmonogramu i dodawanymi jednorazowo 
+
+3.10. Trasówka w formie papierowej przekazywana jest kierowcy- obecnie zastąpiona jest wersją elektroniczną gdzie z systemu BOK po stworzeniu trasówki jest wysyłana do systemu Xtrack gdzie zlecenia przypisywane są na tablety. Po wykonaniu zlecenia wszelkie zmienione informacje wracają do BOK ( data godzina edycji, ilość odebrana i notatka, nie zamieszcza się zdjęcie ) 
+
+3.11.  Trasówka elektroniczna 3.11.1. Punkty na trasówce mają możliwość sortowania alfabetycznego jak i po ustalonej kolejności przez dyspozytora. Zlecenia z nowych umów jak i reklamacyjne- dodatkowe powinny wyświetlać się na początku trasy gdy jest posortowana wg. Ustalonej kolejności. Tablet ma możliwość sortowania punktów po najbliższej odległości od pojazdu, wyświetla odległość między adresem a pojazdem. 
+
+3.11.2. W trakcie realizacji trasy program powinien mieć możliwość dodania dodatkowych zleceń z poziomu dyspozytora i kierowcy ( przypadek gdy kierowca odbiera nadwyżki i pojemniki/ worki nie znajdujące się na trasówce lecz na miejscu zlecone przez klienta kierowca dopisuje informacje dla dyspozytora który dodaje zlecenia z odpowiedniej pozycji umowy) 
+
+3.11.3. Możliwość generowania potwierdzeń zbiorczych na początku miesiąca przy pierwszej trasówce dla danego punktu w miesiącu lub potwierdzeń jednorazowych przy każdej trasówce dla danego punktu (wersja elektroniczna w trakcie przygotowywania) 
+
+3.11.4. Wydruk powinien być możliwy dla określonych filtrów: okres, pojazd klient. Pod klientem powinna być możliwość podpięcia indywidualnego wzoru potwierdzenia do wydruku / podpisu na tablecie 
+
+3.11.5. Program umożliwia edycję cykli- grupowe zmiany tras/pojazdów, dni odbioru, zmianę kolejności przejazdu. Program powinien współpracować z mapą na której będą wyświetlane zlecenia/ lokalizacje umów którymi będzie można grupowo zarządzać zmieniając harmonogramy i trasy 
+
+3.11.6. Dla nowych umów konieczne jest przeprowadzenie inwentaryzacji pojemników 
+
+3.11.7. RFID zinwentaryzowanego pojemnika powinno być widoczne pod pozycją umowy 
+
+3.11.8. Zlecenia podstawienia pojemników powinny być wysyłane na tablet 
+
+3.11.9. Każde zlecenia powinno mieć utworzony protokół podstawienia pojemnika w wersji papierowej i elektronicznej do podpisu przez klienta (wersja elektroniczna w trakcie przygotowywania) 
+
+3.11.10. Zlecenia będzie wskazywało wielkość i frakcje pojemnika, podczas podstawiania operator będzie zaczytywał kod RFID do zlecenia 
+
+3.11.11. Podczas inwentaryzacji operator powinien mieć możliwość zaczytania stanu pojemnika, odczyt tagu, czy sprawny/ niesprawny, kolor, wielkość, frakcja wraz z możliwością zrobienia zdjęcia dla każdego pojemnika 
+
+3.11.12. Pojemnik z wybraną wielkością, frakcją i kodem RFID powinien trafić pod wskazaną pozycje umowy do systemu 
+
+3.11.13. Podczas realizacji zleceni śmieciarką dla pojazdów wyposażonych w anteny RFID i wagi  zlecenia powinny same zmieniać status po opróżnieniu pojemnika, a waga zapisywać się do niego - w zależności od rozliczenia klienta waga / odebrana ilość pojemników 
+
+3.11.14. Dla pojazdów wyposażonych w wagę aplikacja wyświetla ilość odebranych odpadów 
+
+3.11.15. W zleceniach zrealizowanych – link do nagrań z auta (4 kamery) w godzinie odbioru (odklikania przez kierowcę ilości odebranych pojemników) tak, by można bezpośrednio z BOK sprawdzić kolor odebranego pojemnika/ nadwyżki/ zrobić zrzut, że zastawiony dojazd, niewystawiony pojemnik), 
+
+3.11.16. Dla zleceń podstawień pojemników dostępny jest wydruk etykiety z informacjami o pojemniku i lokalizacji do której został przypisany 
+
+3.11.17. Tworzenie i zatwierdzanie fikcyjnej trasy dla zleceń realizowanych za pomocą podwykonawców 
+
+3.11.18. Alert dla kierowcy o wprowadzonych zmianach w realizowanej trasie – informacja o zaistnieniu zmian, w trakcie przygotowania o szczegóły zmian dotyczące zleceń 
+
+
+
+
+
+
+
+
+ 
+- Data 
+
+- Samochód 
+
+- Kierowcy 
+
+- Karta przekazania odpadu KPO/KPOK 
+
+- Zlecenia 
+
+
+ 
+ 
+
+ 
+ 
+ 
+4. TABLET 4.1. Praca na tablecie- umożliwia pełne zarządzanie zleceniami, konta konfigurowane są w zależności od typu otrzymywanych zleceń ( śmieciarki, kontenery, hds/pojemniki ) 4.1.1. Logowanie ekipy przed wyjazdem 
+
+
+4.1.2. Po wejściu w przypisaną trasę ekipa rozpoczyna pracę 
+
+
+
+
+
+
+
+
+  
+Lista zleceń na śmieciarkę (widok informacji możliwy do zmiany na potrzeby szybszej edycji zleceń): 
+  
+
+Lista zleceń na pojemniki: 
+  
+
+ 
+Widok zleceń na mapie: 
+ 
+Obraz zawierający mapa
+
+Opis wygenerowany automatycznie
+Przykładowe szczegóły zlecenia: 
+ 
+Obraz zawierający tekst
+
+Opis wygenerowany automatycznie
+Zmiana statusu zlecenia: 
+  
+Obraz zawierający tekst
+
+Opis wygenerowany automatycznie
+Zmiana informacji o pojemniku w pozycji umowy: 
+  
+Obraz zawierający tekst
+
+Opis wygenerowany automatycznie
+Odczyt RFID i wydruk etykiety: 
+ 
+
+Metryka pojemnika- jego stan: 
+ 
+
+5. KIEROWCA 5.1.  W pojazdach bezpylnych zazwyczaj jest 2 kierowców + pomocnik 
+
+5.2.  Kierowcy wymieniają się co kilka godzin 
+
+5.3. Kierowca ma możliwość zrobienia zdjęcia, dodania notatki z listy lub ręcznego wpisania które będą zapisane pod wybranym zleceniem. 
+
+5.4.  Modyfikacje względem aktualnego systemu 5.4.1. Możliwość wykazania w trakcie kontroli elektronicznej karty przekazania odpadu KPO/KPOK 
+
+5.4.2. Dodawanie zleceń z poziomu kierowy do zatwierdzenia przez dyspozytora, 
+
+5.4.3. Po uruchomieniu aplikacji zatwierdzenie informacji o codziennej obsłudze pojazdu - zrealizowane 
+
+
+
+
+
+
+
+
+ 
+6. ZATWIERDZANIE TRASY 6.1.  Po zrealizowaniu całej trasy powinna być zatwierdzona przez pracownika biura. 
+
+6.2.  Ilości odebranych pojemników powinny być fakturowane według ilości faktycznie odebranych lub ilości minimalnej z umowy w zależności od rodzaju utworzonej umowy. 
+
+6.3. Ilości powinny przechodzić ze zleceń odczytanych za pomocą RFID jak i zatwierdzonych ręcznie przez kierowcę. 
+
+6.4. Dla pojazdów nie wyposażonych w wagi łączna zebrana masa odpadów powinna się przeliczać według ustalonego algorytmu na pojemniki w zależności od frakcji i ich wielkości. Masa przypisana do odbioru powinna przechodzić na karty BDO i mieć możliwość edycji. 
+
+
+
+
+
+ 
+  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+V. DZIAŁ TECHNICZNY 
+
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Dział techniczny zarządza flotą pojazdów, urządzeniami, a także warsztatem i magazynem.  
+Przez dział techniczny realizowane są wszystkie zakupy. Kupowane są części do utrzymania ruchu, środki ochrony osobistej, maszyny, urządzenia, pojemniki, worki, artykuły chemii gospodarczej itd. 
+Dodatkowo, rolą działu technicznego jest nadzorowanie poprawności innych procesów realizowanych w przedsiębiorstwie i optymalizacji narzędzi służących do ich realizacji. 
+ 
+Poniżej przedstawione są potrzeby działu technicznego: 
+1. Program do obiegu dokumentów w firmie 1.1. Automatyczna rejestracja faktury i odczytanie danych OCR 
+
+1.2. Możliwość integracji z obecnym systemem z możliwością automatycznego zaciągania dokumentów do obecnego systemu 
+
+1.3. Przekazanie do osoby odpowiedzialnej, która merytorycznie opisuje fakturę, sprawdza czy jest ona zgodna ze stanem faktycznym. Po opisaniu faktury osoba przekazuje ją do księgowości. W programie musi zostać ślad, że faktura została przekazana z działu x do działu księgowości. 
+
+1.4. Pisma, wezwania, mandaty, czasem nie trafiają do zainteresowanego, dlatego program musi mieć możliwość szybkiej weryfikacji u kogo dany dokument został zablokowany z możliwością powrotu lub powiązaniem z innym tematem 
+
+1.5. Możliwość podłączenia kolejnych dokumentów do sprawy, która została już zamknięta. Np. dołączenie fv końcowej do fv pro-forma 
+
+1.6. Uruchomienie obiegu dla dokumentu zgodnie z klasyfikatorem jaki został mu nadany: 1.6.1. Nagany, upomnienia 
+
+1.6.2. Dowolny dokument z nadanym klasyfikatorem 
+
+
+
+
+1.7. Temat do rozwinięcia 
+
+
+
+
+
+Program ma za zadanie zapewnienie ewidencji i dalsze procesowanie wszystkich dokumentów, które przychodzą do firmy. Program musi posiadać funkcjonalność: 
+ 
+2. Stworzenie schematu postępowania w sytuacji przyjmowania nowego pracownika 2.1. Blokada przed wprowadzeniem nowego pracownika pod warunkiem, że ten nie ma odpowiednich szkoleń do jego stanowiska pracy. 
+
+2.2. Generowanie karty obiegowej w postaci papierowej i elektronicznej dla nowego pracownika. 
+
+2.3. Generowanie karty obiegowej w postaci papierowej i elektronicznej dla pracownika kończącego pracę – jeżeli pracownik ma nierozliczone szkody, lojalki, zaliczki – alert do wszystkich zainteresowanych działów. 
+
+2.4. Generowanie karty szkolenia stanowiskowego odpowiednich dla danego stanowiska pracy. 
+
+2.5. Generowanie wszystkich potrzebnych instrukcji BHP w zależności od stanowiska pracy. 
+
+2.6. Generowanie potrzebnych ocen ryzyka stanowiska pracy w zależności od stanowiska pracy. 
+
+2.7. Generowanie wszystkich stosownych oświadczeń potrzebnych w zależności od stanowiska pracy. 
+
+2.8. Tworzenie elektronicznej teczki pracownika. Oprócz teczki papierowej równolegle prowadzona teczka elektroniczna. 
+
+2.9. Generowanie z poziomu programu nagan, upomnień oraz notatek służbowych oraz powiązanie wszystkich dokumentów do elektronicznych teczek pracowników. 
+
+2.10. Ewidencja porozumień zwanymi lojalkami pracowników podnoszących swoje kompetencje w postaci przebytych kursów – ewidencja + termin do końca trwania porozumienia: 2.10.1. Możliwość wprowadzenia kwoty i czasu trwania porozumienia. Przy wypowiedzeniu pracownika przed upływem końca daty porozumienia stosowny alert oraz automatyczne zliczenie kwoty pozostałej do oddania wobec pracodawcy. 
+
+
+
+
+2.11. Kontrola szkoleń BHP – przypominacz terminów kolejnych szkoleń 
+
+2.12. Kontrola badań lekarskich – przypominacz terminów kolejnych badań 
+
+2.13. Kontrola uprawnień w zależności od stanowiska pracy tj.: prawo jazdy, kurs na przewóz rzeczy, uprawnienia na wózki widłowe, ładowarki itd.- przypominacz zbliżającego się terminu końca uprawnień 
+
+2.14. Dodatkowe uprawnienia pracownika tj. HDS, spawacz, pierwsza pomoc, szkolenie ppoż -> słownik prowadzony przez użytkownika 
+
+2.15. Możliwość wprowadzenia wszelkich szkoleń jakie pracownik odbył – jeżeli szkolenie ma charakter okresowy – przypominacz zbliżającego się terminu końca 
+
+2.16. Możliwość integracji z systemem ROGER 
+
+2.17. Możliwość integracji z systemem 4TRANS 
+
+2.18. Założenia do działu kadrowego według wiedzy działu technicznego – do weryfikacji przez dział kadr: 2.18.1. Możliwość tworzenia wspólnych raportów i zestawień dla 3 firm 
+
+2.18.2. Możliwość generowania zestawień z dowolnych danych, zakresów – wzór tabeli przestawnej Excel 
+
+2.18.3. Wdrażanie aktualizacji związanych z nową ustawą do dwóch dni po podpisaniu ustawy 
+
+2.18.4. Możliwość generowania zezwoleń typu A i/lub oświadczeń o zamiarze powierzenia wykonania pracy 
+
+2.18.5. Możliwość planowania urlopów przez kierowników odpowiednich działów 
+
+2.18.6. Automatyczne generowanie powiadomień sms /mailowych do pracowników o: 2.18.6.1. Zajęciach komorniczych  
+
+2.18.6.2. Zbliżającym się końcu terminu ważności uprawnień 
+
+2.18.6.3. Zaległych niespłaconych zaliczkach 
+
+2.18.6.4. Akceptacji wniosków urlopowych 
+
+2.18.6.5. Możliwość napisania dowolnego komunikatu do pracowników w formie sms / mailowej 
+
+
+
+
+2.18.7. Możliwość zgłoszenia przez kierownika działu na wniosek pracownika zdarzenia: 2.18.7.1. Prośba o zaświadczenie o zatrudnieniu 
+
+2.18.7.2. Wniosek o zmianę konta 
+
+2.18.7.3. Wniosek o rezygnację z PPK 
+
+2.18.7.4. Inne potrzebne wnioski 
+
+
+
+
+2.18.8. Automatyczne pobieranie zwolnień lekarskich pracowników z PUE 
+
+2.18.9. Kalkulator osób zatrudnionych z niepełnosprawnością do celów PFRON 
+
+
+
+
+
+
+
+
+ 
+Cały punkt 2 poniższego opracowania ma szeroki związek z działem kadr w firmie. Dlatego nowy system musi mieć możliwość migracji danych z obecnych systemów tj. Optima, Gang. Łączna liczba zatrudnionych to ok 550 osób. Ludzie zatrudnieni są w 3 podmiotach, dlatego system musi dawać możliwość kadrom zarządzania pracownikami w ujęciu trzech firm. 
+Z punktu działu technicznego program musi automatycznie wygenerować wszystkie potrzebne dokumenty, które po zapoznaniu i podpisaniu przez nowego pracownika trafią akt osobowych. Szkolenie nowego pracownika odbywa się wieloetapowo. Pracownik odbywa szkolenie stanowiskowe, BHP, a następnie każda z wymaganych komórek organizacyjnych tj. dział techniczny, warsztat, sortownia, kasa, dyspozytorzy itd. szkolą nowego pracownika. Po wykonaniu wszystkich wymaganych szkoleń i odnotowaniu tego na karcie obiegowej pracownik dopuszczany jest do pracy. 
+System musi zapewnić poniższe funkcje: 
+ 
+ 
+3. Działanie Aplikacji bazującej na systemie GPS 
+
+
+3.1 Pozycja Pojazdu 
+Program ma pokazywać bieżącą i archiwalną pozycję wszystkich zawartych w nich pojazdów. Pełna funkcjonalność dla zdarzeń archiwalnych ma sięgać granic pamięci programu, minimum 1/1,5 roku wstecz. Program ma mieć podgląd do danych z CAN w pojedzie i mieć możliwość ich gromadzenia i raportowania w oparciu o nie. Sprawdzanie tras musi być także weryfikowalne po przebiegu dostępnych parametrów, np. Przebieg, napięcie, prędkość z GPS i CAN, obroty, poziom paliwa, itp.  
+Dane o przebytych podróżach przez danych kierowców muszą być rejestrowane. Wyszukiwanie i gromadzenie tych danych musi być funkcyjne z perspektywy kierowcy oraz danego pojazdu. Użycie danego auta przez wielu kierowców, jak i jazda jednego kierowcy wieloma autami w oparciu o okresy i kilometry, dodatkowo powinna być możliwość śledzenia pojazdu ze względu na wykonane zlecenia. Wszelkie parametry dodatkowe umożliwiające sprawdzenie i historię danych elementów muszą edytowalne przez danego użytkownika lub zależne od nadanych uprawnień przez Administartora. 
+Tankowania aut muszą być rejestrowane (i zintegrowane z bazą danych stacji paliw), w oparciu o wskazania pojazdu jak i wydanie przez dystrybutor. Tankowania są identyfikowane poprzez klipsy /pastylki RFID. Ubytki paliwa także powinny być rejestrowane i raportowane. Ubytki paliwa mogą występować podczas długotrwałych postojów jak i pracy, np. awarie. 
+Program musi być zintegrowany z czujnikami ciśnienia Continental. Wyświetlanie bieżących wskazań, archiwizowanie ich oraz raportowanie. Musi umożliwiać sprawdzenie przebiegu wskazań ciśnienia dla danego koła (w pojedzie) w perspektywie czasu.  
+Mapa na jakiej wyświetlane są wskazania pozycji pojazdu, ma mieć parę wariantów, np. Google Maps (Satelita + Street View), Open Street Map. Na mapie powinny też być zawarte ograniczenia dla pojazdów ciężarowych, takich jak wysokość przejazdu pod wiaduktem czy ograniczenie tonażowe dla danej drogi/ mostu. 
+Graficzne Oznaczenie Pozycji na mapie powinno także wskazywać jaka czynność jest aktualnie wykonywana przez ten pojazd (jazda, postój, itp.). Dodatkowo powinna znaleźć się informacja który to pojazd i który kierowca oraz trasa bieżącej podróży. Widoczność tych elementów powinna być edytowalna przez danego użytkownika lub nadanych uprawnień.  
+ 
+Musi być możliwość wyświetlenia aktualniej pozycji wszystkich pojazdów. Musi być możliwość wyboru zakresu pojazdów (np. cała grupa pojazdów lub wybrane pojazdy). Wyświetlanie poszczególnych parametrów wspomnianych powyżej elementów musi być edytowalne/ wybieralne. Wszystkie pojazdy muszą mieć możliwość ich dzielenia na grupy odpowiadające ich przeznaczeniu, np. ciągniki siodłowe, śmieciarki, osobowe, itp. Grupy te mają być swobodnie edytowalne i w oparciu o nie musi być możliwość raportowania i powiadamiania o zdarzeniach.  
+ 3.2 Tachograf/ Identyfikacja kierowcy 
+Musi być podłączenie do tachografu auta z bieżącym podglądem rejestrowanych na nim działań oraz zdalne zgrywanie z niego danych. W pojazdach w których nie ma tachografu musi być ewidencja kierowcy/operatora za pośrednictwem klipsa/pastylki RFID. Przejazdy pojazdami wyposażonymi w tachograf, ale bez włożonej karty muszą być ewidencjonowane.  
+Poruszanie się pojazdem bez tachografu, ale z ewidencją RFID, bez „przyłożenia” pastylki musi sygnalizować dźwiękowo brak „autoryzacji”. Urządzenie identyfikacyjne każdorazowo przy odpaleniu powinno wymagać „autoryzacji”. W maszynach przeładunkowych autoryzacja powinna być dodatkowo wymuszona po definiowalnym czasie. Na tych maszynach zmiana operatora nie oznacza wyłączenia maszyny.  
+W programie muszą być podsumowane czasy jazdy/pracy innej i pauz wynikające z przepisów dotyczących czasu pracy kierowców oraz prawa pracy. Czas do wykorzystania i prognozowane odpoczynki dobowe i tygodniowe. Pobrane zdalnie dane z tachografów jako pliki .DDD maja być gromadzone i importowane na dyskach w celu ich ewidencji i późniejszej obróbki.  
+W oparciu o dane pozyskane z tachografu pojawiają się powiadomienia. 
+3.3 Geostrefy 
+Na mapie można tworzyć obszary/geostrefy, na których podstawie będzie można monitorować, raportować i wysyłać powiadomienia zdarzeń w nich występujących. W oparciu o wybrany obszar będzie można otrzymać dane, takie jak: czas wjazdu/wyjazdu ze strefy, prędkość w strefie (szczytowa/ średnia), czas przebywania w strefie, itp. Dane te będą gromadzone i będą z nich tworzone raporty, będą one wysyłane automatycznie (w zależności od czasu, np. codziennie/ tygodniowo) lub ręcznie w dowolnym momencie i z dowolnego zakresu.  
+3.4 Powiadomienia/ komunikaty 
+Podczas pracy programu w zależności od zdarzeń z tachografu, przekroczeń, działań w obszarach lub wystąpieniu zadanej wartości czasu mają wyświetlać się komunikaty/ powiadomienia informujące o danym fakcie. Powiadomienia te mają mieć edytowalne warunki wystąpienia oraz mają być zależne od ustawień danego konta dostępowego lub nadanych uprawnień. Komunikaty te są szybka formą raportowania stanu pojazdu/ czynności kierowcy. Powiadomienia mogą same znikać po zakończeniu czynności (ew. wyświetlaniu przez określony zakres czasu) lub być zamykane przez użytkownika po zapoznaniu się z jego treścią. Występowanie powiadomień i ich obsługa przez użytkownika także mają być raportowane. 
+ 
+ 
+ 
+ 
+ 
+3.5 Raportowanie 
+Każde możliwe dane powinny mieć możliwość ich raportowania. Raporty muszą być tworzone ręcznie jak i powinny być automatycznie tworzone i wysyłane na maila lub zapisywane na dysku, w zależności od potrzeb. Powinny być w formacie arkuszy kalkulacyjnych (np. Excel) lub opracowane graficznie i tabelarycznie (np. PDF). W raportach powinna być możliwość wybrania dowolnego zakresu i parametrów na jakich ma się opierać. Raporty te powinny być nieobarczone błędami, być podsumowane i czytelnie opisane. Przykładowo mogą być to następujące raporty:  
+a) raport wykazujący którzy kierowcy w jakich autach, wskazanego dnia znajdowali się w wybranym obszarze,  
+
+b) jakimi pojazdami poruszał się kierowca „Jan Kowalski” w zaznaczonym przedziale czasowym,  
+
+c) w określonym przedziale czasowym wykazać wszystkie auta poruszające się z prędkością większą niż zadana wartość w wyznaczonej geostrefie.  
+
+
+To tylko niektóre z możliwych wariantów raportowanych treści. 
+3.6 Konta dostępowe 
+Program musi mieć możliwość tworzenia, dodawania i odejmowania kont dostępowych ze zmiennym zakresem ich działania. Poszczególne konta mają mieć dostęp do treści jakie zdefiniowane zostaną na koncie administratora. Będą konta na których nie będzie ograniczeń, ale też będą takie na których będzie tylko część funkcjonalności. Będą także konta o różnych loginach (najczęściej mailach), ale o tych samych hasłach. W zależności od loginu program będzie pokazywał i działał w różnorodny sposób.  
+3.7 Aspekty ZOM 
+Wymagania dotyczące systemu GPS, potrzebnego do realizacji umowy z Zarządem Oczyszczania Miasta szczegółowo opisuje Specyfikacja Istotnych Warunków Zamówienia (SIWZ) na Oczyszczanie Letnie i Zimowe dla Rejonów VI, VII, VIII, IX, X.  
+3.8 Przypominacz  
+Na podstawie wprowadzonych parametrów musi być możliwość przypomnienia o danym zdarzeniu. 
+Możemy zaplanować interwały lub dany przebieg (kilometrowy, motogodzinowy) dla danego pojazdu, dla którego wartość będzie się zmieniała i zbliżała się do zaplanowanego zdarzenia. 
+ 
+Takimi zdarzeniami mogą być:  
+1. Badanie techniczne 
+
+2. Przegląd / Wymiana Oleju 
+
+3. Polisa OC/AC  
+
+4. Termin badania UDT 
+
+5. Legalizacja Tachografu 
+
+6. Okres Leasingu 
+
+7. Legalizacja wag: śmieciarki, hakowce, ładowarki,  
+
+8. Legalizacja gazometrów 
+
+9. itd. itp. 
+
+
+ 
+Przypomnienia te mogą być wyświetlane w programie, wysyłane mailem lub SMS-em. 
+ 
+4. Programy działu technicznego 4.1. Tworzenie zamówień z magazynu i warsztatu w programie: 4.1.1. Historia zamówień, każde zamówienia musi być zaakceptowane bądź odrzucone przez dział techniczny: 4.1.1.1. Odrzucone zamówienie info dlaczego, kto odrzucił, data 
+
+4.1.1.2. Zaakceptowane: kto zaakceptował, kto realizuje, data 
+
+
+
+
+4.1.2. Konkretna osoba przypisana do zamówienia 
+
+4.1.3. Obsługi pojazdów: 4.1.3.1. data wykonania wystawionej obsługi; informacja o nie zamkniętej obsłudze; przypomnienie po 7 dniach od wystawienia że obsługa nie została jeszcze zrobiona 
+
+4.1.3.2. wpisanie uwag kierowcy / operator 
+
+
+
+
+4.1.4. Pojazdy do serwisów zewnętrznych: 4.1.4.1. Historia konkretnego pojazdu z wizyt w serwisach zewnętrznych  
+
+4.1.4.2. Historia napraw, przeglądów  
+
+4.1.4.3. Przypomnienie o przeglądach okresowych (np. w przypadku zabudowy smieciarek) 
+
+4.1.4.4. Informacja do dyspozytora o planowanym serwisie zewnętrznym (planowana data wstawienia, przyczyna)   
+
+
+
+
+4.1.5.  DO ROZWINIĘCIA 
+
+
+
+
+4.2. Szkody 4.2.1.  Historia szkód danego kierowcy 
+
+4.2.2.  Historia szkód na danym samochodzie – z dokumentacja zdjęciową.  
+
+4.2.3.  Komunikacja z Kierownikiem – informacje o szkodach kierowców 
+
+4.2.4. Komunikacja z Księgowością – możliwość przesłania dokumentów o przyznaniu odszkodowania 
+
+
+
+
+
+
+
+
+ 
+Możliwość filtrowania po nazwisku kierowcy – najlepiej, gdyby nazwiska nie były wpisywane „z palca”, tylko z bazy danych pracowników z ewidencji Kadr, aby uniknąć rozbieżności w pisowni nazwisk (problemy szczególnie z nazwiskami Ukraińców) – tak, aby po wybraniu nazwiska kierowcy pokazywała się całą historia szkód spowodowanych przez niego oraz (jako opcja) szkód, w których był on poszkodowany. 
+Podobnie jak w przypadku Kierowców, filtrowanie historii szkód danego pojazdu (nazwy pojazdów również pobierane ze zdefiniowanej bazy danych). Możliwość filtrowania po numerze bocznym lub rejestracyjnym. Ważna jest możliwość dołączenia zdjęć uszkodzeń pojazdu (z dysku T\dokumentacja fotograficzna uszkodzeń). 
+Wysyłanie powiadomienia o zaistnieniu szkody do Kierownika – z informacją zwrotną (potwierdzenie zapoznania się z tą informacją przez Kierownika). Najlepiej, żeby powiadomienie wysyłane było wraz krótką historią szkód danego kierowcy – możliwość wyciągania konsekwencji wobec kierowców z długa historią szkód 
+Księgowość potrzebuje dokumentów od Ubezpieczyciela z decyzją o wypłacie odszkodowania – możliwość wysłania takiego dokumentu do Księgowości ze zwrotnym potwierdzeniem odbioru  
+ 
+Opisywanie fv 
+Schematy działania 
+Serwisy zewnętrzne 
+Dokumentacja zdjęciowa 
+SENT 
+Przyponiczacz 
+Stirlitz 
+Euro Pietraszko 
+Xtrack 
+ 
+ 
+5. 4TRANS integracja 5.1. Planowane i zrealizowane dni pracy kierowcy 
+
+5.2. Planowany i zrealizowany czas pracy kierowcy 
+
+5.3. Odniesienie indywidualnego czasu pracy kierowcy do założonego progu tygodniowego wynoszącego, zależnie od stanu popytu na usługi. Wartość zmienna ustalana przez zarządzającego flotą 
+
+5.4. Oznaczenie kierowców, którzy nie powinni przychodzić w sobotę do pracy 
+
+5.5. Oznaczenie kierowców, którzy mają najwięcej godzin nadliczbowych do odbioru 
+
+5.6. Weryfikacja czy kierowca, który został wysłany na odbiór godzin nadliczbowych faktycznie nie przychodzi do pracy – integracja z Roger 
+
+
+
+
+
+Program 4Trans służy do kontrolowania oraz rozliczania czasu pracy kierowców. Każdego dnia wszyscy kierowcy zobowiązani są o sczytanie karty kierowcy po zakończeniu pracy. Karta sczytywana jest urządzeniem mobilnym. Dane z urządzenia mobilnego każdego dnia rano importowane są do programu 4Trans. 
+Na podstawie danych z programu generowane są tygodniowe i miesięczne raporty czasu pracy kierowcy. Na podstawie tygodniowego raportu i liczby przepracowanych godzin w danym tygodniu wybierani są kierowcy, którzy przychodzą do pracy w sobotę. Chodzi o równoważne obciążenie godzinowe. Co 3 miesiące na podstawie programu 4Trans wypłacane są nadgodziny. Kwoty wypłacanych nadgodzin jest bardzo różna. Zależy nam na tym, żeby kwoty wypłacanych nadgodzin były zbliżone do siebie. Ewidentnie część pracowników chce i pracuje więcej niż pozostali.  
+Wymagania do integracji: 
+Nowy system powinien tworzyć harmonogram, który odnosi się do danych importowanych każdego dnia z programu 4Ttans, dzięki czemu zostanie automatycznie zweryfikowana poprawność danych takich jak: 
+ 
+6. Integracja z wagami najazdowymi 6.1. Ważenia pojazdów BYŚ mają wykonywać się automatycznie przez zaczytanie numerów tablic rejestracyjnych i/lub odczyt taga RFID i powiązanie ważenia do odpowiedniego zlecenia 
+
+6.2. Monitoring wagi wraz z zapisem zdjęć 
+
+6.3. Powiązanie ważeń materiałów niebezpiecznych z magazynem tych materiałów 
+
+6.4. Montaż terminali stx5000 z drukarkami oraz wysyłka dokumentów do terminali tj: 6.4.1. KPO 
+
+6.4.2. FV 
+
+6.4.3. INNE 
+
+
+
+
+6.5. Do rozwinięcia 
+
+
+
+
+
+Nowy system wymaga integracji z wagami najazdowymi. Obecny system wagowy jest przestarzały i wymaga modernizacji. Wszystko wskazuje na to, że firma GS Software zbuduje system wagowy z którym będzie trzeba się zintegrować.  
+Wstępne założenia systemu wagowego: 
+ 
+7. Integracja z terminalem paliwowym 
+
+
+Nowy system wymaga integracji z terminalem paliwowym oraz dostawcami systemów GPS. Zadaniem nowego programu jest raportowanie zużycia paliwa z rozgraniczeniem na poszczególne pojazdy. Do stworzenia tego raportu niezbędne jest pobranie informacji z szyny CAN pojazdu, które dotyczą spalania średniego, chwilowego, pozostałych km do przejechania oraz poziomu paliwa w zbiorniku. Raport ma za zadanie ujawnić nieprawidłowości dotyczące zbyt dużego spalania paliwa w stosunku do założonych wartości dla poszczególnych grup pojazdów oraz wysyłanie alertu o tym fakcie.  
+ 
+8. Integracja z terminalem Adblue oraz płynu do spryskiwaczy 
+
+
+Temat do przeanalizowania czy jest sens integracji 
+ 
+9. Integracja z radarem prędkości: 
+
+
+Temat do przeanalizowania czy jest sens integracji 
+ 
+10.  SYSTEMU OBSŁUGI TRANSPORTU I PRACOWNIKÓW MOBILNYCH  10.1. ROZPOCZĘCIE DNIA PRACY: 
+
+10.2. CZYNNOŚCI W ŚRODKU DNIA ( WYSYP, PAUZA) 
+
+10.3. CZYNNOŚ NA ZAKOŃCZENIE DNIA PRACY : 
+
+
+
+
+
+Nowy system ma za zadanie zintegrować się z wieloma systemami, programami tj.: Optima, GPS SETIVO, GPS Xtrack, GS Software (waga najazdowa), Hektronic (stacja paliwa), zbiornik Adblue (stacja adblue Xtrack), zbiornik spryskiwaczy (Xtarck), aby optymalizować czas pracy i raportowania kierowców rozpoczynających i kończących pracę oraz wykonujących czynności podczas dnia pracy (wysypy na firmie), tankowania, załadunki itp. 
+Oczekujemy, że nowy system będzie potrafić automatycznie pobrać z wielu programów, systemów dane i stworzyć raport nieprawidłowości każdego dnia.  
+Logowanie do systemu Roger informując o czasie wejścia na teren firmy, czasie do uruchomienia pojazdu i opuszczenia terenu firmy. 
+W zależności do grupy pojazdów czas operacyjny winien być edytowalny aby można było go dostosowywać do szacowanych wartości które mogą ulec zmianie w zależności od pory roku, zmianie rodzaju zadań oraz kategorii pojazdu. 
+Czas wejścia należy podzielić na dwa etapy: 
+Etap I – Wejście na teren firmy do ruszenie pojazdu z miejsca postojowego  
+Etap II – ruszenie z miejsca postojowego do czasu wyjazdu w trasę (zadanie). Zmienną wartością dla grupy pojazdów byłby etap II. 
+Należy przyjąć miejsce wyjazdu na punkt wyjazdowy na ulicę Wólczyńską. Strefa wyjazdowa z firmy do ulicy Wólczyńskiej jak i pobocze wykorzystywane jest przez kierowców na miejsce postojowe przed wyjazdem w trasy (głównie mowa o kierowcach śmieciarek) 
+Warto by umieścić opcję do zaznaczenia przez kierowcę wykonania „obsługi codziennej pojazdu” z alertem jej nie zaznaczenia przez kierowcę. 
+ 
+Sygnalizacja wjazdu na firmę w zależności od czynności, obsady lub potrzeb kierowcy na wykonanie „pauzy” lub zakończenia zlecenia. 
+Kierowca zaznaczał by co ma do wykonania na firmie . Wysyp, pauza ,koniec zlecenia i w zależności od zgłoszonej czynności dobrany będzie czas na daną operację (czas edytowalny dla każdej czynności) 
+ 
+Również podzielone na dwa etapy: 
+Etap I : Czas wjazdu na firmę do momentu postawienia auta na miejscu postojowym z uwzględnieniem edytowalnego limitu czasowego dla poszczególnych grup pojazdów z możliwością edycji tych czasów w zależności od pory roku lub zadań . 
+ Etap II : Czas od zaparkowania pojazdu do opuszczenia terenu firmy . 
+Wszelakiego odstępstwa czasowe od przyjętych zakresów czasowych na dane czynności winne być wyszczególniane w raporcie końcowym. 
+ 
+11. WARSZTAT I MAGAZYN 11.1. Magazyn 
+
+11.2. Wymagania wobec nowego programu: 11.2.1. Import danych wprowadzonych przez magazyn do działu księgowości 
+
+11.2.2. Generowanie dokumentów w postaci papierowej i cyfrowej kart przydziału odzieży roboczej dla konkretnego stanowiska pracy 
+
+11.2.3. Wprowadzenie czytników ręcznych kodów kreskowych 
+
+11.2.4. Średni rotacja pozycji towaru w przedziale miesięcznym, kwartalnym, rocznym 
+
+11.2.5. Informacja na temat złożonego zamówienia. Data wysłania zamówienia, typ towaru.  
+
+11.2.6. Możliwość ustawienia stanu minimalnego, po przekroczeniu którego dostaję powiadomienie na mail  
+
+11.2.7. Dokumenty generowane przez magazyn:  
+
+11.2.8. DO ROZWINIĘCIA  
+
+
+
+
+11.3. WARSZTAT 11.3.1. Wymagania wobec nowego programu: 11.3.1.1. Planowanie pracy serwisu 
+
+11.3.1.2. Tworzenie zleceń i budowanie historii pojazdu 
+
+11.3.1.3. Informacja czy dana część już była w pojeździe wymieniana (gwarancja producenta) 
+
+11.3.1.4.  
+
+
+
+
+11.3.2. Dokumenty generowane przez warsztat i dział techniczny: 
+
+11.3.3. Mobilny program na Android do chipowania kontenerów kp.1.5 – kp36 
+
+11.3.4. Przydzielenie numeru taga RFID kontenera automatycznie do bazy danych programu wykonawczego (obecny BOK). 
+
+11.3.5. Powiązanie numeru kontenera z numerem taga RFID i jego typem: kp1.5 -kp36 
+
+11.3.6. Wykonanie 8 zdjęć kontenera i przechowywanie ich w bazie wykonawczej pod numerem kontenera i taga RFID oraz datą ich zrobienia. 
+
+11.3.7. Nadanie nowego taga (stary zagubiony, uszkodzony) z automatycznym odłączeniem numeru starego taga i nadaniem nowego. Przydzielony nowy numer automatycznie zaciągnie się do bazy danych programu wykonawczego. Historia uszkodzonego lub zagubionego taka bezwzględnie pozostaje w bazie wykonawczej z datą wszystkich zmian. 
+
+11.3.8. Nadawanie nowych numerów kontenerów z poziomu aplikacji – dostawy nowych kontenerów, które nie posiadają jeszcze nadanych numerów: 11.3.8.1. Blokada wprowadzenia nowego istniejącego już numeru. 
+
+11.3.8.2. Możliwość wprowadzenia numeru kontenera z konkretnego przedziału liczbowego w zależności od typu kontenera. 
+
+
+
+
+11.3.9. Złomowanie kontenera: 11.3.9.1. Możliwość wycofania z eksploatacji kontenera, którego naprawa jest ekonomicznie nieuzasadniona – zmiana statusu kontenera na zezłomowany. 
+
+11.3.9.2. Historia pozostaje w bazie wykonawczej z datą wszystkich zmian. 
+
+11.3.9.3. Wykonanie co najmniej 16 zdjęć uszkodzeń kontenera, które świadczą o nieekonomicznej naprawie oraz zdjęć po zezłomowaniu. Wszystkie zdjęcia muszą być przechowywane w bazie wykonawczej pod numerem kontenera oraz datą ich zrobienia 
+
+
+
+
+11.3.10. Kontenery w naprawie: 11.3.10.1. Możliwość zablokowania numeru kontenera, który jest w naprawie – zmiana statusu kontenera na w naprawie 
+
+11.3.10.2. Data w bazie wykonawczej od kiedy w naprawie 
+
+11.3.10.3. Alert do kierownictwa warsztatu oraz działu technicznego jak naprawa trwa dłużej niż 7 dni 
+
+
+
+
+
+
+
+
+
+
+
+Dział techniczny sprawuje kontrolę nad warsztatem i magazynem.  
+ 
+ 
+Magazyn pracuje w programie w programie Optima. Każdy towar oraz faktura zakupowa przechodzi przez magazyn. Do programu Optima wprowadzane są kontrahenci, numery faktur, pozycje i kwoty z zakupów. Dział techniczny realizuje zamówienia, które wysyłane są z magazynu w pliku Word.  
+ 
+Rozchód z magazynu 
+
+
+ 
+Etykieta przyjęcia otwaru 
+
+
+ 
+Wzór zamówienia z magazynu 
+ 
+
+
+ 
+
+ 
+ 
+ 
+
+
+ 
+Dokumentację wszystkich napraw warsztat prowadzi w programie Optima. Do każdej naprawy drukowane jest zlecenie serwisowe i przekazywane mechanikowi.  
+ 
+Warsztat: Zlecenia warsztatowe 
+  
+ 
+
+
+ 
+
+  
+
+ 
+ 
+Warsztat: Oświadczenie dokręcenia kół 
+ 
+
+
+ 
+
+
+ 
+
+
+Dział techniczny: Karta obsługi pojazdu: Różny zakres obsługi w zależności od przebiegu. Najczęściej obsługa S, M, L – dla podwozia. Karta obsługi wystawiana jest również do zabudowy (śmieciarka, hakowiec, bramowiec, HDS, szambiarka, naczepa, prasokontener, zamiatarka itd.) 
+ 
+
+ 
+  
+
+ 
+
+
+ 
+
+  
+
+ 
+
+
+ 
+
+  
+
+ 
+
+
+ 
+
+  
+
+ 
+
+
+ 
+
+  
+
+ 
+
+
+ 
+
+  
+ 
+ 
+ 
+ 
+ 
+  
+
+ 
+Wzór zamówienia z warsztatu 
+ 
+
+
+ 
+
+ 
+
+
+ 
+ 
+Temat związany jest z działem dyspozytorów i panelem do zarządzania zleceniami. Planujemy wyeliminować błąd kierowcy związany z nieprawidłowo wpisanym numerem kontenera w realizowanym zleceniu. Wszystkie tablety w pojazdach są wyposażone w czytniki tagów RFID, dlatego do wyeliminowania błędu związanego z nieczytelnym, błędnie z czytanym numerem, rodzajem kontenera wykorzystamy tablet, którym kierowca zaczyta tag RFID. 
+Planujemy ochipować ok 4000szt kontenerów. Wszystkie kontenery rotują, na bazę wracają wyłącznie celem ich opróżnienia i ponownego podstawienia do klientów. W związku z powyższym potrzebna jest aplikacja na tablet z czytnikiem RFID dla warsztatu jako komórki chipowania kontenerów która umożliwi: 
+ 
+ 
+ 
+ 
+ 
+ 
+
